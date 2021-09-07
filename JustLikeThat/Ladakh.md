@@ -1,0 +1,131 @@
+*   For Impatient Junta
+    *   [Thumping Machine Pictures](http://picasaweb.google.com/yogesh.powar/ThumpingMachine#)
+    *   [Some more selected Pictures](http://picasaweb.google.com/yogesh.powar/JKAndHimachal#)
+    *   [Video](http://www.youtube.com/watch?v=Qfu_37_mo7w)
+
+[![](http://1.bp.blogspot.com/_hiiwYtuYGgs/SucIOOAHkRI/AAAAAAAAAsw/GrRbyuk7bL4/s200/img_1442.jpg)](http://1.bp.blogspot.com/_hiiwYtuYGgs/SucIOOAHkRI/AAAAAAAAAsw/GrRbyuk7bL4/s1600-h/img_1442.jpg)
+
+
+*   15 June 2009
+    Reached Chandigarh Collected bikes from TCI-XPS cargo service (Sector 26),
+    which were sent from Pune. Not much damage were done to the bikes. We were
+    group of eight guys with five bikes: Two Royal Enfileds 350 CC, Two Unicorns
+    and a CBZ. Changed damaged part of bikes, were damaged in transportation,
+    filled fuel, loaded bikes with our luggages and we were ready to hit the
+    worlds highest bike-able road.
+    *   16:30 Started from Chandigarh after a heavy lunch
+    *   21:00 Dinner @ Uni
+    *   23:45 Reached Kangra, decided to stay at a rain shed.
+    *   04:00 Started heavy thunder storm and rain, so moved some Rajastan
+        dharmshala for a night stay
+*   16 June 2009
+    *   12:00 Started for Dharmashala
+    *   15:00 McLeod Ganj
+    *   17:00 Dalai Lama Temple
+    *   18:00 Dal Lake
+    *   18:15 Naddi, Awesome view of mountain tops covered with snow.
+    *   21:00 Dinner @ Dharmashala
+    *   23:00 Slept @ Rajastan dharmashala
+*   17 June 2009
+    *   12:00 Started for Palampur. The morning time was wated in changing a
+        clutch plate of Unicorn.
+    *   14:00 Lunch @ Palampur
+    *   16:00 One of the Enfield fuse was blown, so had to replace it.
+    *   18:00 Tea halt just after Mandi. Kulu is 100 KM from there. Bullets were
+        thumping with 80 Kmph with pillion + luggage on both the sides and also
+        at the back of it. Road was good, view was awesome. One side of road was
+        River and other side was covered with mountain.
+    *   20:30 Reached Kulu. Had dinner + Old Monk;
+*   18 June 2009
+    *   7:00 Started for Manali
+    *   10:30 Breakfast @ Manali
+    *   11:30 Started for Rohtang Pass[](http://3.bp.blogspot.com/_hiiwYtuYGgs/SucIMa5khvI/AAAAAAAAAsQ/dv9pV-h8UN4/s1600-h/img_1561.jpg)
+        > [![](http://3.bp.blogspot.com/_hiiwYtuYGgs/SucIMa5khvI/AAAAAAAAAsQ/dv9pV-h8UN4/s200/img_1561.jpg)](http://3.bp.blogspot.com/_hiiwYtuYGgs/SucIMa5khvI/AAAAAAAAAsQ/dv9pV-h8UN4/s1600-h/img_1561.jpg)
+        Initially road was ok but after an hour of riding we came to know why
+        internet says its hard to pass Rohtang; One feet muddy roads, Traffic
+        Jams, Road block because of melting of ice, 45 degrees roads ;) and
+        chilling cold. Every time our shoes got wet we had to replace socks and
+        if possible shoes. Encountered little snowfall on the top. Had to
+        tighten clutch cords twice while crossing the pass.
+    *   16:00 Had lunch after descending the Rohtang on the other side. Typical dal rice.
+    *   18:00 Removed Puncture of one the Unicorns.
+    *   18:15 Started from Keylong. It get dark little late there. We decided to
+        cover 45 Km in the evening/night. Road was risky but had no option of
+        staying anywhere on the road; It was damn cold.
+    *   21:30 Reached Keylong and found a hotel for shelter ;). Then as usual
+        food + Old Monk :) and good night sleep
+*   19 June 2009
+    *   12:00 All bikes were made tank full as next petrol pump was 365 KM away
+        :O. Had go back 7 Km for finding the petrol pump from Keylong. My
+        bullets clutch plate was in bad condition, had to throttle a lot for
+        steep rise and also there was only one mechanic @ Keylong, also named
+        Yogesh, and was overcrowded. So decided to stretch the bikes till Leh.
+        We had left with very little cash, as our assumption of finding an ATM
+        at Keylong was wrong. We borrowed some cash from hotel owner instead of
+        paying him the hotel and food bill. Such nicer people will only find in
+        that areas.
+    *   2:00 Started for Leh and decided to reach Sarchu by EOD.
+    *   5:00 Had to stop at a tent near Zinzunbar as road ahead was blocked due
+        to avelanche. There was all ice outside the tent. Some how manged to get
+        Dal-Rice for dinner in the tent itself. Night was terribly cold, owner
+        said temperature that night was -10 degrees :(. Rahul had breething
+        problem. Many had headache, cold and
+        [![](http://1.bp.blogspot.com/_hiiwYtuYGgs/SucIM3IMDiI/AAAAAAAAAsY/xBbyUxSqjU4/s200/img_1737.jpg)](http://1.bp.blogspot.com/_hiiwYtuYGgs/SucIM3IMDiI/AAAAAAAAAsY/xBbyUxSqjU4/s1600-h/img_1737.jpg)running
+        nose. Blankets were not that woolen. Had use the sleeping bags that we
+        carried with us. We all were waiting for Sun to rise so that we can
+        start. And this how one of buffer day was used at Zinzunbar.
+*   20 June 2009
+    *   9:00 left Zinzunbar. Road was covered with Ice @ many places. Helmet
+        visor were used with vapours; If we keep it open, there was chilling
+        cold wind hitting the face. My bike go sleeped over a ice block after
+        crossing Barallachla. Cloths got wet, wanter went inside shoes. Had to
+        cross many water streams flowing across the road.
+    *   11:30 Reached Sarchu. Had lunch, dried our cloths, shoes and socks.
+        Rahuls breathing problem was still there, more than that, he was
+        vometing everything that he ate.
+    *   17:00 Reached Pang and decided to make a hault there. We had covered
+        only 80 Km in whole day. :(. That night was better that previous.
+*   21 June 2008
+    *   7:30 Started early from Pang for Leh. Water kept outside the tent for
+        washing our hands on previous night was literally frozen by next
+        morning.
+    *   13:30 Passed Tanglangla Pass, around 17650 Feets.
+    *   15:30 Reached Leh. Took bath after three days. ;).
+    *   18:00 Finally found ATM @ Leh. With filled pockets and clean cloths went
+        to some hotels for better food and bird watching ;).
+*   22 June 2008[![](http://1.bp.blogspot.com/_hiiwYtuYGgs/SucINS1uXkI/AAAAAAAAAsg/GZPDhZbizm4/s200/img_1808.jpg)](http://1.bp.blogspot.com/_hiiwYtuYGgs/SucINS1uXkI/AAAAAAAAAsg/GZPDhZbizm4/s1600-h/img_1808.jpg)
+    *   5:00 Dropped Gaurav and Nisarg @ airport. Now we were left with 5 bikes
+        and 6 guys :|
+    *   8:00 Went for search of a mechanic for servicing my bike + changing
+        clutch plate.
+    *   11:30 Back to hotel after brand new clutch plate and then my bike was
+        roaring well with little throttle.
+    *   13:30 Had dinner @ Dosa center. And started our journey for Kargil which
+        was 260 KM away. Roads had become nicer and weather was not that chill.
+    *   20:30 Found a government guest house at a place from where Kargil was
+        just 40 KM. Food was awesome there also cheap.
+*   23 June 2009
+    *   12:00 Passed Kargil
+    *   14:00 Passed Tiger hill near Drass.
+    *   15:30 Passed Captain turns near Amarnath.
+    *   17:30 Reached Sonmarg. Had so called lunch there.
+    *   20:30 Reached Shrinagar. Found a boat house.
+    *   22:30 Dinner near Dal Lake.
+    *   00:30 Good night sleep after lot of talks about the journey so far.
+*   24 June 2009
+    *   11:30 Dropped Ankit @ airport. Left were five on five.
+    *   14:00 Eat Ushtaba, a Shrinagar special mutton dish.
+    *   15:30 Slept at Shalimar Garden for couple of hours.
+    *   18:00 Dinner again at Dal lake[![](http://3.bp.blogspot.com/_hiiwYtuYGgs/SucIN_RSStI/AAAAAAAAAso/OfV8ihg18xk/s200/img_1831.jpg)](http://3.bp.blogspot.com/_hiiwYtuYGgs/SucIN_RSStI/AAAAAAAAAso/OfV8ihg18xk/s1600-h/img_1831.jpg)
+    *   22:00 Sweet dreams;
+*   25 June 2009
+    *   10:30 Started for Jammu. Road's quality was good as its a national
+        highway but all the road is actually a ghat, only curves.
+    *   18:00 Reached Jammu.
+*   26 June 2009
+    *   Seen some fort of Jammu. Went for search of Bike transport services.
+        Sent our bikes to Pune via TCI-XPS for avoiding damages than sending it
+        through the train (Realized that it was a bad decision, as both bullets
+        were severely damaged when we got the bikes in Pune that too after 15
+        days :(). And we started our roaring train journey to Pune with nothing
+        but the sweet memories of Beautiful valley.
