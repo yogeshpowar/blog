@@ -8,6 +8,11 @@ newspaper cutting dated `25th March 1943`. It was from *Sporting Times*.
 
 ---
 
+<img style="margin: 0px auto 10px; display: block; text-align: center; cursor:
+pointer;"
+src="http://2.bp.blogspot.com/_hiiwYtuYGgs/Rsu8ZxUBQJI/AAAAAAAAAEk/NXfiIYp-58U/s200/506x316_jockey.jpg"
+alt="" id="BLOGGER_PHOTO_ID_5101378153847275666" border="0" />
+
 At the age of 26 **Vithal Ramchandra Jadhav** has joined the roles of leading
 jockey in western India. This Maratha lad apparently seed to Krishna Bapu, the
 Kolhapur trainer from his youth says he owes his success to encouragement and
