@@ -14,6 +14,7 @@
 
 * [Kohoj Fort Trek](JustLikeThat/KohojTrek): A #trek that I organized for IITB
   CSE department
+* [Wasota Satara](JustLikeThat/wasota): Jungle & fort trek
 
 ## Old random blogs
 
