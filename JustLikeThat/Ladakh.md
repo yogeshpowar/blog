@@ -1,5 +1,5 @@
 *   For Impatient Junta
-    *   [Thumping Machine Pictures](http://picasaweb.google.com/yogesh.powar/ThumpingMachine#)
+    *   [Thumping Machine Pictures](https://photos.app.goo.gl/KLkRRKdidhGYYaPK6)
     *   [Some more selected Pictures](http://picasaweb.google.com/yogesh.powar/JKAndHimachal#)
     *   [Video](http://www.youtube.com/watch?v=Qfu_37_mo7w)
 
