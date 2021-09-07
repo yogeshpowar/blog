@@ -1,4 +1,6 @@
 * 2009
+    * [The Beast](JustLikeThat/beast): On #Bullet: Royal Enfield's 350 CC
+      Standard bike.
     * [Shantaram](JustLikeThat/Shantaram): On Shantaram #book
     * [Leh-Ladakh](JustLikeThat/Ladakh): Our Leh Ladakh expedition on #Bike
     * [Linux](JustLikeThat/Linux): About early #workspace
