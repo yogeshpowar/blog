@@ -1,4 +1,4 @@
 * 2007
-    * [J in a large pizza](JInLargePizza)
-    * [Extortion](Extortion)
-    * [Slash does matter](Slash_does_matter)
+    * [J in a large pizza](JustLikeThat/JInLargePizza)
+    * [Extortion](JustLikeThat/Extortion)
+    * [Slash does matter](JustLikeThat/Slash_does_matter)
