@@ -21,6 +21,8 @@
 
 * [BE / ME Projects for Sale](JustLikeThat/meProjects) about market of grad or post-grad
   projects and solutions.
+* Are Schools ready for [online teaching](JustLikeThat/onlineTeaching)? Why are
+  they even looking beyond Diksha (digital infrastructure for school education)?
 
 ## Old random blogs
 
