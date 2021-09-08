@@ -1,13 +1,11 @@
 # Blogs
 
-## Education
+* [About Me](aboutMe)
 
-* [BE / ME Projects for Sale](JustLikeThat/meProjects) about market of grad or post-grad
-  projects and solutions.
-* Are Schools ready for [online teaching](JustLikeThat/onlineTeaching)? Why are
-  they even looking beyond Diksha (digital infrastructure for school education)?
-* Where [Text books are much better](https://twitter.com/yogeshpowar/status/1254332669221056513)
-  than learning from digital multi media contents.
+* Most of these blogs were first published on Google's blogger have been ported
+  to Github for my love towards
+  [Markdown](https://daringfireball.net/projects/markdown/) &
+  [Git](https://git-scm.com/)
 
 ## Community Activities
 ### Running
@@ -27,8 +25,18 @@
 
 ## Computers, Networks and GNU/Linux
 
-* All GNU/Linux related blogs are listed [here](Linux/index).
+* All [GNU/Linux](Linux/index) related blogs are listed [here](Linux/index).
 * [Internet is not FB](JustLikeThat/internet)
+
+## Education
+
+* [BE / ME Projects for Sale](JustLikeThat/meProjects) about market of grad or post-grad
+  projects and solutions.
+* Are Schools ready for [online teaching](JustLikeThat/onlineTeaching)? Why are
+  they even looking beyond Diksha (digital infrastructure for school education)?
+* Where [Text books are much better](https://twitter.com/yogeshpowar/status/1254332669221056513)
+  than learning from digital multi media contents.
+
 
 ## Bullet: Royal Enfield's 350 CC
 
