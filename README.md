@@ -2,8 +2,8 @@
 * [About Me](aboutMe)
 * Note: Most of these blogs were first published on Google's blogger have been ported
   to Github for my love towards
-  [Markdown](https://daringfireball.net/projects/markdown/) &
-  [Git](https://git-scm.com/)
+  [Markdown](https://daringfireball.net/projects/markdown/),
+  [Git](https://git-scm.com/), [vimwiki](https://vimwiki.github.io/)
 * License at the bottom of the page.
 
 # Blogs
@@ -19,6 +19,10 @@
 * [LSoM March 2019](JustLikeThat/LSoM2019) Last Sunday of Month run route.
 * LSoM March 31 2019: [Notes](JustLikeThat/LSOM2019Notes) for Route and Traffic
   Control Volunteers
+
+### Free Software Blogs
+
+* [Free Software  Blogs](free/index)
 
 ### Ajinkyan: Sainik School Satara past students community
 

@@ -1,0 +1,37 @@
+# Free Software Movement
+
+This was created by [RMS](http://www.stallman.org/) in year 1983. Free software
+is software that respects users' _**freedom.**_ Opposite of free software is
+non-free software; or proprietary software.
+
+This non-free software _steals_ users' freedom keeping them
+
+1.  **divided** :- Users are forbidden from sharing the program.
+2.  **helpless** :- Users don't have the source code of the program.
+
+
+Free software have four _freedoms_
+
+*   **freedom 0** :- to run the program for any purpose.
+*   **freedom 1** :- to study the source code of the program and change it to
+    make it do what you wish.
+*   **freedom 2** :- to make and distribute exact copies of the program whenever
+    you want. or help your neighbours.
+*   **freedom 3** :- to make and distribute copies of your modified versions of
+    the program.
+
+ And this is why _school should run only Free software_
+
+1.  Obvious reason is to **save money**. Schools don't have enough money, so
+    they shouldn't waste their money paying for permission to use proprietary software.
+2.  To form **good programmers**, because in order to learn good programming
+    skills students need to read lots of code and write lots of  code.
+3.  To teach good citizenship, because schools have the mission to teach not
+    only facts and technical skills, but above all the spirit of good will, the
+    **habit of helping others**.
+
+Reference :-  [https://www.gnu.org/education/](https://www.gnu.org/education/)
+
+---
+
+Updated on 15/04/2013
