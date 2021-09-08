@@ -17,6 +17,11 @@
   CSE department
 * [Wasota Satara](JustLikeThat/wasota): Jungle & fort trek
 
+## Education
+
+* [BE / ME Projects for Sale](JustLikeThat/meProjects) about market of grad or post-grad
+  projects and solutions.
+
 ## Old random blogs
 
 * 2010
