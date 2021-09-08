@@ -33,6 +33,7 @@
 ## Computers, Networks and GNU/Linux
 
 * All [GNU/Linux](Linux/index) related blogs are listed [here](Linux/index).
+* [Secure your Aadhaar or Bank OTPs](JustLikeThat/aadhaar)
 * [Internet is not FB](JustLikeThat/internet)
 
 ## Education
