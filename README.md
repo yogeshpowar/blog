@@ -14,6 +14,8 @@
 
 * [Strength Training](JustLikeThat/st) about strength training for runners.
 * [LSoM March 2019](JustLikeThat/LSoM2019) Last Sunday of Month run route.
+* LSoM March 31 2019: [Notes](JustLikeThat/LSOM2019Notes) for Route and Traffic
+  Control Volunteers
 
 ### Ajinkyans
 
