@@ -23,6 +23,8 @@
   projects and solutions.
 * Are Schools ready for [online teaching](JustLikeThat/onlineTeaching)? Why are
   they even looking beyond Diksha (digital infrastructure for school education)?
+* Where [Text books are much better](https://twitter.com/yogeshpowar/status/1254332669221056513)
+  than learning from digital multi media contents.
 
 ## Old random blogs
 
