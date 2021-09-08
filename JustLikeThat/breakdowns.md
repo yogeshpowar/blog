@@ -1,6 +1,6 @@
 # Bullet Breakdowns
 
-![Make of a Gun ...](https://photos.app.goo.gl/Q3B94v29FkPUFLrG6)
+![Make of a Gun ...](https://raw.githubusercontent.com/yogeshpowar/blog/main/images/bullet.jpg)
 
 _There were never any issues with my Bullet 350 STD,
 they were just calls for love to know her better._
