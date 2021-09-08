@@ -13,6 +13,7 @@
 ### Running
 
 * [Strength Training](JustLikeThat/st) about strength training for runners.
+* [LSoM March 2019](JustLikeThat/LSoM2019) Last Sunday of Month run route.
 
 ### Ajinkyans
 
