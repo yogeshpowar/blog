@@ -20,6 +20,10 @@
 
 ### Ajinkyans
 
+* [Ajinkyans.in](JustLikeThat/ajinkyan) was a mastodon based micro blogging
+  platform that I hosted and maintained for 3 years. Its not active as it was
+  brought down due to less traction.
+
 ## Bullet: Royal Enfield's 350 CC
 
 * [Leh-Ladakh](JustLikeThat/Ladakh): Our Leh Ladakh expedition on #Bike
