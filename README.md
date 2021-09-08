@@ -4,15 +4,18 @@
   to Github for my love towards
   [Markdown](https://daringfireball.net/projects/markdown/) &
   [Git](https://git-scm.com/)
+* License at the bottom of the page.
 
 # Blogs
 
 ## Community Activities
 ### Running
 
+* [Why We Run?](JustLikeThat/whywerun)
 * [Strength Training](JustLikeThat/st) about strength training for runners.
 * NCRunners FM/HM 16 weeks [training schedule](JustLikeThat/FMTraining)
 * [LSoM March 2020](JustLikeThat/lsom2020)
+* LSoM March [2020 Route](JustLikeThat/lsom2020route)
 * [LSoM March 2019](JustLikeThat/LSoM2019) Last Sunday of Month run route.
 * LSoM March 31 2019: [Notes](JustLikeThat/LSOM2019Notes) for Route and Traffic
   Control Volunteers
@@ -68,3 +71,8 @@
       local goons.
     * [Slash does matter](JustLikeThat/Slash_does_matter): Why one must be
       conscious while using `rm` #command with files with leading `/`
+
+---
+Except where otherwise noted, contents are licensed under a [Creative Commons
+Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) International
+license
