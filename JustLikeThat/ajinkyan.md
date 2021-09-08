@@ -1,4 +1,4 @@
-# Ajinkyan
+# Ajinkyans.in: A Tech Platform for community building
 
 [![](https://1.bp.blogspot.com/-4Jr_R3kUkhw/XrZmUwsBFBI/AAAAAAAANZk/1iZiZ53toCYwdH1-N_ovEia0iHOJhy8WQCLcBGAsYHQ/s320/Screenshot%2Bfrom%2B2020-05-09%2B13-30-13.png)](https://1.bp.blogspot.com/-4Jr_R3kUkhw/XrZmUwsBFBI/AAAAAAAANZk/1iZiZ53toCYwdH1-N_ovEia0iHOJhy8WQCLcBGAsYHQ/s1600/Screenshot%2Bfrom%2B2020-05-09%2B13-30-13.png)
 
@@ -116,3 +116,7 @@ Like/Boost/Share a Toot.  
 
 PS: If you are not an Ajinkyan and want to explore Mastodon please
 refer [https://gnu.io/social/](https://gnu.io/social/)
+
+---
+
+Updated on: 9 May 2020
