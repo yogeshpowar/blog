@@ -1,11 +1,11 @@
-# Blogs
 
 * [About Me](aboutMe)
-
-* Most of these blogs were first published on Google's blogger have been ported
+* Note: Most of these blogs were first published on Google's blogger have been ported
   to Github for my love towards
   [Markdown](https://daringfireball.net/projects/markdown/) &
   [Git](https://git-scm.com/)
+
+# Blogs
 
 ## Community Activities
 ### Running
