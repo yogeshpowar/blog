@@ -1,22 +1,5 @@
 # Blogs
 
-## Bullet: Royal Enfield's 350 CC
-
-* [Leh-Ladakh](JustLikeThat/Ladakh): Our Leh Ladakh expedition on #Bike
-* [The Beast](JustLikeThat/beast): On #Bullet: Royal Enfield's 350 CC
-* [Pune Shreevardhan](JustLikeThat/shreevardhan) Bike trip
-* The common [Bullet Breakdowns](JustLikeThat/breakdowns) and fixing them.
-
-## GNU/Linux
-
-* [Linux](JustLikeThat/Linux): About early (2009) #workspace
-
-## Treks
-
-* [Kohoj Fort Trek](JustLikeThat/KohojTrek): A #trek that I organized for IITB
-  CSE department
-* [Wasota Satara](JustLikeThat/wasota): Jungle & fort trek
-
 ## Education
 
 * [BE / ME Projects for Sale](JustLikeThat/meProjects) about market of grad or post-grad
@@ -25,6 +8,31 @@
   they even looking beyond Diksha (digital infrastructure for school education)?
 * Where [Text books are much better](https://twitter.com/yogeshpowar/status/1254332669221056513)
   than learning from digital multi media contents.
+
+## Community Activities
+### Running
+
+* [Strength Training](JustLikeThat/st) about strength training for runners.
+
+### Ajinkyans
+
+## Bullet: Royal Enfield's 350 CC
+
+* [Leh-Ladakh](JustLikeThat/Ladakh): Our Leh Ladakh expedition on #Bike
+* [The Beast](JustLikeThat/beast): On #Bullet: Royal Enfield's 350 CC
+* [Pune Shreevardhan](JustLikeThat/shreevardhan) Bike trip
+* The common [Bullet Breakdowns](JustLikeThat/breakdowns) and fixing them.
+
+## Treks
+
+* [Kohoj Fort Trek](JustLikeThat/KohojTrek): A #trek that I organized for IITB
+  CSE department
+* [Wasota Satara](JustLikeThat/wasota): Jungle & fort trek
+
+## GNU/Linux
+
+* [Linux](JustLikeThat/Linux): About early (2009) #workspace
+
 
 ## Old random blogs
 
