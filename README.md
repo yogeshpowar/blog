@@ -18,11 +18,16 @@
 * LSoM March 31 2019: [Notes](JustLikeThat/LSOM2019Notes) for Route and Traffic
   Control Volunteers
 
-### Ajinkyans
+### Ajinkyan: Sainik School Satara past students community
 
 * [Ajinkyans.in](JustLikeThat/ajinkyan) was a mastodon based micro blogging
   platform that I hosted and maintained for 3 years. Its not active as it was
   brought down due to less traction.
+
+## Computers, Networks and GNU/Linux
+
+* All GNU/Linux related blogs are listed [here](Linux/index).
+* [Internet is not FB](JustLikeThat/internet)
 
 ## Bullet: Royal Enfield's 350 CC
 
@@ -36,10 +41,6 @@
 * [Kohoj Fort Trek](JustLikeThat/KohojTrek): A #trek that I organized for IITB
   CSE department
 * [Wasota Satara](JustLikeThat/wasota): Jungle & fort trek
-
-## GNU/Linux
-
-* [Linux](JustLikeThat/Linux): About early (2009) #workspace
 
 
 ## Old random blogs
