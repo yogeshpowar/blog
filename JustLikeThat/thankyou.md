@@ -17,13 +17,11 @@ Thank You.
 
 ---
 
-[^wellWishers]:
-Ajinkyas: Sainik School Batch mate's community
-Orowealth: My company colleagues
-Mozart: My Engineering college friends
-eChaavadi: My IITB close friend circle
-Bigger Family: Extended family
-Marvell gang: My previous company colleagues
+[^wellWishers]: Ajinkyas: Sainik School Batch mate's community, Orowealth: My
+company colleagues, Mozart: My Engineering college friends, eChaavadi: My IITB
+close friend circle, Bigger Family: Extended family, Marvell gang: My previous
+company colleagues
+
 ---
 
 Updated on: 14th Sept 2021
