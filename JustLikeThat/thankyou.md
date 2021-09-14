@@ -1,5 +1,4 @@
-Thank you all<sup>[1](#myfootnote1)</sup>
-for your warm birthday wishes. They made my day
+Thank you all[^wellWishers] for your warm birthday wishes. They made my day
 special.
 
 Almost all the wishes came on chat and instead of replying to them with
@@ -18,14 +17,13 @@ Thank You.
 
 ---
 
-<a name="wellWishers">1</a>
-
-* [^]: Ajinkyas: Sainik School Batch mate's community
-* Orowealth: My company colleagues
-* Mozart: My Engineering college friends
-* eChaavadi: My IITB close friend circle
-* Bigger Family: Extended family
-* Marvell gang: My previous company colleagues
-
+[^wellWishers]:
+Ajinkyas: Sainik School Batch mate's community
+Orowealth: My company colleagues
+Mozart: My Engineering college friends
+eChaavadi: My IITB close friend circle
+Bigger Family: Extended family
+Marvell gang: My previous company colleagues
 ---
+
 Updated on: 14th Sept 2021
