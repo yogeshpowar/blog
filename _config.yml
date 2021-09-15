@@ -1,3 +1,7 @@
 theme: jekyll-theme-dinky
 title: [Yogesh Ashok Powar]
 description: [Personal Blogs]
+
+github:
+    repository_url: https://yogeshpowar.github.io/blog
+    is_project_page: false
