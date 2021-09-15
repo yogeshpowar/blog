@@ -10,7 +10,7 @@ something different on this birthday.
 I started counting the *Happy Birthday* wishes that I received over the call and
 instant messages.
 
-And donated `# wishes times a fixed amount` to a NGO working near my home town.
+And donated `# wishes times a fixed amount` to a NGO ([^spandan]) working near my home town.
 And the pleasure was immense.
 
 Hope the wishes bring joy to many in need.
@@ -21,6 +21,7 @@ Thank You.
 
 [^wellWishers]: Ajinkyas Millenium Batch: Sainik School Batchmates, Orowealth: My company colleagues, Mozart: My Engineering college friends, eChaavadi: My IITB close friend circle, Bigger Family: Extended family, Marvell gang: My previous company colleagues
 
+[^spandan]: [Spandan Foundation](https://www.facebook.com/teamspandanfoundation/)
 ---
 
 Updated on: 15th Sept 2021
