@@ -21,7 +21,9 @@ Thank You.
 
 [^wellWishers]: Ajinkyas Millenium Batch: Sainik School Batchmates, Orowealth: My company colleagues, Mozart: My Engineering college friends, eChaavadi: My IITB close friend circle, Bigger Family: Extended family, Marvell gang: My previous company colleagues
 
+
 [^spandan]: [Spandan Foundation](https://www.facebook.com/teamspandanfoundation/)
+
 ---
 
 Updated on: 15th Sept 2021
