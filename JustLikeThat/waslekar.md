@@ -33,10 +33,11 @@ Listen to [his recent interview (in Marathi)](https://www.youtube.com/watch?v=be
 more latest views.
 
 While most would give full review stars; some like
-[Sidhya](https://www.goodreads.com/user/show/13626166-siddarth-gore], ex-company
+[Sidhya](https://www.goodreads.com/user/show/13626166-siddarth-gore), ex-company
 colleague has given a different
 [review](https://www.goodreads.com/review/show/685410402) and IMO he is also
 right.
+
 ---
 
 Updated on: 18 Sep 2021
