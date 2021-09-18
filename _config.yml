@@ -5,3 +5,10 @@ description: [Personal Blogs]
 github:
     repository_url: https://yogeshpowar.github.io/blog
     is_project_page: false
+
+plugins:
+      - jekyll-feed
+title: Yogesh's blog
+description: Personal Blog
+author: Yogesh
+    twitter: yogeshpowar
