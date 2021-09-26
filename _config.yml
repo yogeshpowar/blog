@@ -8,7 +8,13 @@ github:
 
 plugins:
       - jekyll-feed
+
 title: Yogesh's blog
 description: Personal Blog
 author: Yogesh
     twitter: yogeshpowar
+
+feed:
+    collection:
+        JustLikeThat:
+            path: feed.xml

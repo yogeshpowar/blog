@@ -60,9 +60,11 @@
 * [Wasota Satara](JustLikeThat/wasota): Jungle & fort trek
 
 
-## Old random blogs
+## Random blogs
 
 * 2021
+    * Book review: [Roads and Bridges](free/roadsAndBridges): Unseen Labor
+      behind our public digital infrastructure
     * [Sandeep Waslekar](JustLikeThat/waslekar.md) and his book *Ek Dishecha Shodh*
     * [Thank You](JustLikeThat/thankyou) for the Birth Day wishes
 * 2010
