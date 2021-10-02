@@ -1,3 +1,14 @@
+lsi: false
+safe: true
+source:
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 theme: jekyll-theme-dinky
 title: [Yogesh Ashok Powar]
 description: [Personal Blogs]
@@ -5,3 +16,9 @@ description: [Personal Blogs]
 github:
     repository_url: https://yogeshpowar.github.io/blog
     is_project_page: false
+
+remote_theme: pages-themes/dinky@v0.2.0
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
