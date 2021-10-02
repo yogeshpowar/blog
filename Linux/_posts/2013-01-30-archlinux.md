@@ -1,3 +1,9 @@
+---
+layout: posts
+title: Archlinux to save good old Ubuntu
+tags: GNU/Linux OS
+---
+
 # Archlinux to save good old Ubuntu
 
 I had an old machine (Intel P4 processor, Intel D845GBV motherboard) which was
