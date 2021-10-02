@@ -1,8 +1,7 @@
 ---
 layout: posts
 title: "Sandeep Waslekar"
-tags:  Personalities
-tag: Book review
+tags:  Personalities BookReview
 ---
 
 # Sandeep Waslekar
