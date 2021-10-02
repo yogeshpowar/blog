@@ -2,6 +2,7 @@
 layout: posts
 title: Shantaram
 tags: BookReview
+desc: On Shantaram book
 ---
 
 # Shantaram

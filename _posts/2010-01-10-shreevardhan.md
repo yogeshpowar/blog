@@ -2,6 +2,7 @@
 layout: posts
 title: Pune Shreevardhan Pune
 tags: Bullet Travel
+desc: Pune-Shreevardhan Bike trip
 ---
 
 # Pune Shreevardhan Pune

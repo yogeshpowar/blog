@@ -2,6 +2,7 @@
 layout: posts
 title: Review- Roads And Bridges by Nadia Eghbal
 tags: OpenSource FreeSoftware BookReview
+desc: Book review on Roads and Bridges - Unseen Labor behind our public digital infrastructure
 ---
 
 # Review: Roads And Bridges by Nadia Eghbal

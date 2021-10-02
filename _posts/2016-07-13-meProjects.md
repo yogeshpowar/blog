@@ -2,6 +2,7 @@
 layout: posts
 title: Are BE/ME Projects for Sale?
 tags: Education 
+dec: about market of grad or post-grad projects and solutions.
 ---
 
 # Are BE/ME Projects for Sale?

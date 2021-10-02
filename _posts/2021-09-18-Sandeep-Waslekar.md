@@ -2,6 +2,7 @@
 layout: posts
 title: "Sandeep Waslekar"
 tags:  Personalities BookReview
+desc: Sandeep Waslekar and his book Ek Dishecha Shodh
 ---
 
 # Sandeep Waslekar

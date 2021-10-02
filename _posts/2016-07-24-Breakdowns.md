@@ -2,8 +2,8 @@
 layout: posts
 title: Bullet Breakdowns
 tags: Bullet
+desc: The common Bullet Breakdowns and fixing them.
 ---
-
 
 # Bullet Breakdowns
 

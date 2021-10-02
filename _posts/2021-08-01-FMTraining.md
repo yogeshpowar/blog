@@ -2,6 +2,7 @@
 layout: posts
 title: NCRunners FM/HM 16 weeks training schedule
 tags: Running Community
+desc: NCRunners FM/HM 16 weeks training schedule
 ---
 
 # NCRunners FM/HM 16 weeks training schedule

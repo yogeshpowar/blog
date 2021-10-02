@@ -2,6 +2,7 @@
 layout: posts
 title: Slash does matter
 tags:  IITB Random
+desc: Why one must be conscious while using `rm` command with files with leading `/`
 ---
 
 # Slash does matter

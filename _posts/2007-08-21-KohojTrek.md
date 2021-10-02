@@ -2,6 +2,7 @@
 layout: posts
 title: Kohoj Fort Trek
 tags: Trek
+desc: A trek that I organized for IITB CSE department
 ---
 
 # Kohoj Fort Trek

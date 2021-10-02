@@ -1,7 +1,8 @@
 ---
 layout: posts
 title: "Extortion"
-tags: India Random
+tags: Random Commute
+desc: On some random bike accident and local goons.
 ---
 
 # Extortion

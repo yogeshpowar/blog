@@ -2,6 +2,7 @@
 layout: posts
 title: "J in a large Pizza"
 tags:  IITB Random
+desc: IIT hostel days pizza party.
 ---
 
 # J in a large Pizza

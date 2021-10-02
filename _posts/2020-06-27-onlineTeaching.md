@@ -2,6 +2,7 @@
 layout: posts
 title: Online Teaching for Indian Schools
 tags: Education
+desc: Are Schools ready for online teaching? Why are they even looking beyond Diksha (digital infrastructure for school education)?
 ---
 
 # Online Teaching for Indian Schools
