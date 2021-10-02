@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Number 21: Twenty One: XXI
+title: Number 21; Twenty One; XXI
 tags: Life India
 ---
 
