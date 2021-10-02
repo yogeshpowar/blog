@@ -14,7 +14,7 @@
         {% endif %}
         <li> tags:
             {% for tag in {{post.tags}} %}
-            <a href="/blog/tags/#{{ tag }}">{{ tag }}</a>
+            <a href="tags/#{{ tag }}">{{ tag }}</a>
             {% endfor %}
         </li>
       </ul>
