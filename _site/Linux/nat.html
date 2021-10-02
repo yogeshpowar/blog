@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Minimal Linux kernel requirement for NAT | [“Yogesh Ashok Powar”]</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Minimal Linux kernel requirement for NAT" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="[“Personal Blogs”]" />
+<meta property="og:description" content="[“Personal Blogs”]" />
+<link rel="canonical" href="http://localhost:4000/Linux/nat.html" />
+<meta property="og:url" content="http://localhost:4000/Linux/nat.html" />
+<meta property="og:site_name" content="[“Yogesh Ashok Powar”]" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Minimal Linux kernel requirement for NAT" />
+<script type="application/ld+json">
+{"headline":"Minimal Linux kernel requirement for NAT","url":"http://localhost:4000/Linux/nat.html","@type":"WebPage","description":"[“Personal Blogs”]","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=6d0ab904c4c5646185dd9cc29ac3f8dcd193b3aa">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Yogesh Ashok Powar</h1>
+        <p class="header">Personal Blogs</p>
+
+        <ul>
+          
+          <li><a class="buttons" href="https://twitter.com/yogeshpowar">@yogeshpowar</a></li>
+          <li><a class="buttons" href="https://yogeshpowar.github.io/blog">Home</a></li>
+          <li><a class="buttons RSS" href="https://yogeshpowar.github.io/blog">Home</a></li>
+        </ul>
+
+        
+
+        
+      </header>
+
+      <section>
+        <h1 id="minimal-linux-kernel-requirement-for-nat">Minimal Linux kernel requirement for NAT</h1>
+
+<p>If you are looking for only NAT i.e., you are only interested in Network Address
+Translation and not about filtering/mangling, unlike most of the sites, I have
+generated minimal kernel configuration file.</p>
+
+<blockquote>
+  <p>@ -453,7 +453,66 @@<br />
+# CONFIG_IPV6 is not set<br />
+# CONFIG_NETWORK_SECMARK is not set<br />
+# CONFIG_NETWORK_PHY_TIMESTAMPING is not set<br />
+-# CONFIG_NETFILTER is not set<br />
++CONFIG_NETFILTER=y</p>
+  <ul>
+    <li>+CONFIG_NETFILTER_NETLINK=y<br />
++CONFIG_NETFILTER_NETLINK_LOG=y<br />
++CONFIG_NF_CONNTRACK=y<br />
++CONFIG_NETFILTER_XTABLES=y</li>
+    <li>+CONFIG_NF_DEFRAG_IPV4=y<br />
++CONFIG_NF_CONNTRACK_IPV4=y<br />
++CONFIG_IP_NF_IPTABLES=y<br />
++CONFIG_NF_NAT=y<br />
++CONFIG_NF_NAT_NEEDED=y<br />
+# CONFIG_IP_DCCP is not set<br />
+# CONFIG_IP_SCTP is not set<br />
+# CONFIG_RDS is not set</li>
+  </ul>
+
+</blockquote>
+
+<hr />
+
+<p>Update on: 18/01/2012</p>
+
+      </section>
+
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>

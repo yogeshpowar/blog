@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Vim, Javascript and Tern | [“Yogesh Ashok Powar”]</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Vim, Javascript and Tern" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="[“Personal Blogs”]" />
+<meta property="og:description" content="[“Personal Blogs”]" />
+<link rel="canonical" href="http://localhost:4000/Linux/tern.html" />
+<meta property="og:url" content="http://localhost:4000/Linux/tern.html" />
+<meta property="og:site_name" content="[“Yogesh Ashok Powar”]" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Vim, Javascript and Tern" />
+<script type="application/ld+json">
+{"headline":"Vim, Javascript and Tern","url":"http://localhost:4000/Linux/tern.html","@type":"WebPage","description":"[“Personal Blogs”]","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=6d0ab904c4c5646185dd9cc29ac3f8dcd193b3aa">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Yogesh Ashok Powar</h1>
+        <p class="header">Personal Blogs</p>
+
+        <ul>
+          
+          <li><a class="buttons" href="https://twitter.com/yogeshpowar">@yogeshpowar</a></li>
+          <li><a class="buttons" href="https://yogeshpowar.github.io/blog">Home</a></li>
+          <li><a class="buttons RSS" href="https://yogeshpowar.github.io/blog">Home</a></li>
+        </ul>
+
+        
+
+        
+      </header>
+
+      <section>
+        <h1 id="vim-javascript-and-tern">Vim, Javascript and Tern</h1>
+
+<ul>
+  <li>Install https://github.com/tpope/vim-pathogen</li>
+  <li>Add “execute pathogen#infect()” in your ~/.vimrc</li>
+  <li>cd ~/.vim/bundle</li>
+  <li>git clone https://github.com/ternjs/tern_for_vim.git</li>
+  <li>In ~/.vimrc add “let g:tern_map_keys=1”</li>
+  <li>Open js file in vim and then use following mapping to explore Shortcut</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Shortcut</td>
+      <td>Command</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>td</td>
+      <td>:TernDoc</td>
+      <td>Documentation under cursor</td>
+    </tr>
+    <tr>
+      <td>tb</td>
+      <td>:TernDocBrowse</td>
+      <td>Browse documentation</td>
+    </tr>
+    <tr>
+      <td>tt</td>
+      <td>:TernType</td>
+      <td>Type hints</td>
+    </tr>
+    <tr>
+      <td>td</td>
+      <td>:TernDef</td>
+      <td>Jump to definition (yes, ‘td’ is duplicated)</td>
+    </tr>
+    <tr>
+      <td>tpd</td>
+      <td>:TernDefPreview</td>
+      <td>Jump to definition inside preview</td>
+    </tr>
+    <tr>
+      <td>tsd</td>
+      <td>:TernDefSplit</td>
+      <td>Definition in new split</td>
+    </tr>
+    <tr>
+      <td>ttd</td>
+      <td>:TernDefTab</td>
+      <td>Definition in new tab</td>
+    </tr>
+    <tr>
+      <td>tr</td>
+      <td>:TernRefs</td>
+      <td>All references under cursor</td>
+    </tr>
+    <tr>
+      <td>tR</td>
+      <td>:TernRename</td>
+      <td>Rename variable</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Note default Leader is ‘\’</li>
+  <li>On Debian Gnu/Linux one needs to add vim-python
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">apt-get install vim-python-jedi</code></li>
+      <li><code class="language-plaintext highlighter-rouge">apt-get install vim-nox</code></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p>Update on: 03/02/2016</p>
+
+      </section>
+
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>

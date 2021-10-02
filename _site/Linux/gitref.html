@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>How git ref saved my day | [“Yogesh Ashok Powar”]</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="How git ref saved my day" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="[“Personal Blogs”]" />
+<meta property="og:description" content="[“Personal Blogs”]" />
+<link rel="canonical" href="http://localhost:4000/Linux/gitref.html" />
+<meta property="og:url" content="http://localhost:4000/Linux/gitref.html" />
+<meta property="og:site_name" content="[“Yogesh Ashok Powar”]" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="How git ref saved my day" />
+<script type="application/ld+json">
+{"headline":"How git ref saved my day","url":"http://localhost:4000/Linux/gitref.html","@type":"WebPage","description":"[“Personal Blogs”]","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=6d0ab904c4c5646185dd9cc29ac3f8dcd193b3aa">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Yogesh Ashok Powar</h1>
+        <p class="header">Personal Blogs</p>
+
+        <ul>
+          
+          <li><a class="buttons" href="https://twitter.com/yogeshpowar">@yogeshpowar</a></li>
+          <li><a class="buttons" href="https://yogeshpowar.github.io/blog">Home</a></li>
+          <li><a class="buttons RSS" href="https://yogeshpowar.github.io/blog">Home</a></li>
+        </ul>
+
+        
+
+        
+      </header>
+
+      <section>
+        <h1 id="how-git-ref-saved-my-day">How git ref saved my day</h1>
+
+<p><strong>git format-patch HEAD^</strong><br />
+<strong>scripts/checkpatch.pl 0001-…</strong><br />
+Found some problem<br />
+Fixed it; haven’t committed yet<br />
+<strong>git diff &gt; a.diff</strong><br />
+<strong>git-reset –hard HEAD^</strong><br />
+then replaced the diff with the diff in the patch 0001-…<br />
+<strong>git-am 0001-…</strong></p>
+
+<p>Ooh :O I lost the original 0001-… patch and replaced it with delta fixes.</p>
+
+<p>How to recover the patch? Is it waste of a day’s work?</p>
+
+<p>Which FS ? ext3 ok. Google about recovering ext3.<br />
+Ok there is something called as ext3grep; which says<br />
+“Do not attempt to use ext3grep for recovery from a mounted filesystem. Ever.”</p>
+
+<p>Unmounted the FS.<br />
+Downloaded the source ext3grep. ./configure, make and make install.</p>
+
+<p><strong>ext3grep –dump-name /dev/sda5</strong><br />
+It took a while to scan 183 groups to report its useless :(.</p>
+
+<p>Then thought of Linus and typed “recovering git-reset –hard” to find the solution</p>
+
+<blockquote>
+  <p><strong>[root@pe-lt345 sjay]# git reflog</strong><br />
+e6b0b9d HEAD@{0}: HEAD^: updating HEAD<br />
+9c73133 HEAD@{1}: commit:</p>
+
+  <p><strong>[root@pe-lt345 sjay]# git reset –hard 9c73133</strong></p>
+</blockquote>
+
+<p>I Love git.</p>
+
+<hr />
+
+<p>08/02/2012</p>
+
+      </section>
+
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>

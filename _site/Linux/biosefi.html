@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Ubuntu on Lenovo G505s | [“Yogesh Ashok Powar”]</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Ubuntu on Lenovo G505s" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="[“Personal Blogs”]" />
+<meta property="og:description" content="[“Personal Blogs”]" />
+<link rel="canonical" href="http://localhost:4000/Linux/biosefi.html" />
+<meta property="og:url" content="http://localhost:4000/Linux/biosefi.html" />
+<meta property="og:site_name" content="[“Yogesh Ashok Powar”]" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Ubuntu on Lenovo G505s" />
+<script type="application/ld+json">
+{"headline":"Ubuntu on Lenovo G505s","url":"http://localhost:4000/Linux/biosefi.html","@type":"WebPage","description":"[“Personal Blogs”]","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=6d0ab904c4c5646185dd9cc29ac3f8dcd193b3aa">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Yogesh Ashok Powar</h1>
+        <p class="header">Personal Blogs</p>
+
+        <ul>
+          
+          <li><a class="buttons" href="https://twitter.com/yogeshpowar">@yogeshpowar</a></li>
+          <li><a class="buttons" href="https://yogeshpowar.github.io/blog">Home</a></li>
+          <li><a class="buttons RSS" href="https://yogeshpowar.github.io/blog">Home</a></li>
+        </ul>
+
+        
+
+        
+      </header>
+
+      <section>
+        <h1 id="ubuntu-on-lenovo-g505s">Ubuntu on Lenovo G505s</h1>
+
+<p>A friend of mine wanted my help on installing Gnu/Linux on one of his new
+laptops. He had already installed <em>Windows 7</em> on it and tried installing
+<em>Ubuntu</em> on it which had consistently failed to boot in normal or rescue mode.</p>
+
+<p>After doing some research on the Internet, I found that people have faced
+similar problems using similar hardware. I tried a fresh installation of
+<em>Ubuntu</em> <em>14.04</em> (the latest) and it showed the same behaviour. That is <strong><em>no
+activity on screen after loading initrd.</em></strong> The same behavior was seen even for
+<em>Archlinux</em>.</p>
+
+<p>All this time I was trying to boot using the BIOS method. Some post on the
+Internet have mentioned correct working of <em>Ubuntu</em> provided one use <em>EFI</em>
+method. <em>UEFI</em> method requires <em>EFI partition</em> which is a <em>DOS FAT32</em> and
+requires <em>GPT</em> formatted disk.</p>
+
+<p>It was clear then that disk would be reformatted. All I had to do was to boot
+the machine using <em>EFI</em> method and then <em>Ubuntu</em> installation would be taking
+care of the rest. Eventually it did but by removing entire data from disk
+without giving me any warning. And it stupidly took all the share of the disk by
+keeping 500MB for the EFI partition and the remaining 1 TB for itself.</p>
+
+<p>Live <em>Ubuntu</em> CD again came for the rescue.</p>
+
+<p>I had to fix it by first resizing the <em>EXT4</em> using <em>resize2fs</em> and then fixing
+the partition table using the <em>parted</em> to match the partition size with that of
+file systems. To know file system size, used <em>dump2fs</em> to find block count and
+multiplied it by block size. Then created a few more partitions for swap and etc
+using parted; <em>fdisk</em> doesn’t work on GPT disks (why?)</p>
+
+<p>Formatted the newly created swap partition using <em>mkswap</em> and fixed the
+<em>/etc/fstab</em> file with its correct <em>UUID</em> and rebooted the machine to see the
+<em>Ubuntu 14.04</em> up and running.</p>
+
+<p><strong>Happy hacking</strong>.</p>
+
+<hr />
+
+<p>Updated On: 9 Aug 2014</p>
+
+
+      </section>
+
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>

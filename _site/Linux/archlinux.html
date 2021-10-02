@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Archlinux to save good old Ubuntu | [“Yogesh Ashok Powar”]</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Archlinux to save good old Ubuntu" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="[“Personal Blogs”]" />
+<meta property="og:description" content="[“Personal Blogs”]" />
+<link rel="canonical" href="http://localhost:4000/Linux/archlinux.html" />
+<meta property="og:url" content="http://localhost:4000/Linux/archlinux.html" />
+<meta property="og:site_name" content="[“Yogesh Ashok Powar”]" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Archlinux to save good old Ubuntu" />
+<script type="application/ld+json">
+{"headline":"Archlinux to save good old Ubuntu","url":"http://localhost:4000/Linux/archlinux.html","@type":"WebPage","description":"[“Personal Blogs”]","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=6d0ab904c4c5646185dd9cc29ac3f8dcd193b3aa">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Yogesh Ashok Powar</h1>
+        <p class="header">Personal Blogs</p>
+
+        <ul>
+          
+          <li><a class="buttons" href="https://twitter.com/yogeshpowar">@yogeshpowar</a></li>
+          <li><a class="buttons" href="https://yogeshpowar.github.io/blog">Home</a></li>
+          <li><a class="buttons RSS" href="https://yogeshpowar.github.io/blog">Home</a></li>
+        </ul>
+
+        
+
+        
+      </header>
+
+      <section>
+        <h1 id="archlinux-to-save-good-old-ubuntu">Archlinux to save good old Ubuntu</h1>
+
+<p>I had an old machine (Intel P4 processor, Intel D845GBV motherboard) which was
+not under use for a long time. When I assembled all the parts together to find
+machine doesn’t boot. It’s RAM was gone. Had to buy a new DDR-I type 512 MB but
+it was much much cheaper than the older one. I got older one for 1200 Rs per 256
+MB and latest one for just 430 Rs for 512 MB</p>
+
+<p>Whatever, after replacing the memory machine still did not boot reason was bad
+MBR of HDD (Seagate Baracuda 40GB).</p>
+
+<p>Its a machine which was bought in year 2002. Windows XP was only OS that was
+being used untill in 2006 I started using Ubuntu for total replacement to
+Windows.</p>
+
+<p>This is year 2013 and I have moved from Ubuntu to Archlinux (and Parabola) over
+these last 7 years.</p>
+
+<p>This is how I recovered Ubuntu using Archlinux’s live rescue disk.</p>
+
+<ol>
+  <li>Boot using Rescue disc Archlinux</li>
+  <li>find old root partition using <code class="language-plaintext highlighter-rouge">fdisk -l</code> eg., /dev/sda8 (as it was mine)</li>
+  <li><code class="language-plaintext highlighter-rouge">mount /dev/sda8 /mnt</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mount -o bind /dev /mnt/dev</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mount -o bind /sys /mnt/sys</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mount -t proc /mnt/proc</code></li>
+  <li><code class="language-plaintext highlighter-rouge">chroot /mnt /bin/bash</code></li>
+  <li>Type <code class="language-plaintext highlighter-rouge">mount</code> to see where is / mounted from.
+It was showing  /dev/hda8 in the mount and hda8 is not a valid device. Where
+as <code class="language-plaintext highlighter-rouge">fdisk -l</code> has mapped /dev/sda8 with mounted location. Issue was becase
+/etc/mtab.</li>
+  <li>Edited /etc/mtab to mount /dev/sda8 to / instead of /dev/hda8.
+Just before grub-install /dev/sda, I got warning about /dev/sda not being
+BIOS drive. This was because /boot/grub/device.map had still hda into it.</li>
+  <li>Edited /boot/grub/device.map to replace hda to sda.</li>
+  <li><code class="language-plaintext highlighter-rouge">grub-install /dev/sda  </code></li>
+</ol>
+
+<p>Make sure that changes to /boot/grub/device.map and /etc/mtab are undone.</p>
+
+<p>And old ubuntu is up.</p>
+
+<p>This post is made from my good old Ubuntu  :)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>limejuice@zampaktu:~$ cat /etc/issue  
+Ubuntu 6.06 LTS \\n \\l  
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>limejuice@zampaktu:~$ cat /proc/cpuinfo  
+processor       : 0  
+vendor\_id       : GenuineIntel  
+cpu family      : 15  
+model           : 1  
+model name      : Intel(R) Pentium(R) 4 CPU 1.70GHz  
+stepping        : 2  
+cpu MHz         : 1700.129  
+cache size      : 256 KB  
+fdiv\_bug        : no  
+hlt\_bug         : no  
+f00f\_bug        : no  
+coma\_bug        : no  
+fpu             : yes  
+fpu\_exception   : yes  
+cpuid level     : 2  
+wp              : yes  
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm  
+bogomips        : 3402.39  
+</code></pre></div></div>
+
+<p>Happy Hacking.</p>
+
+<hr />
+
+<p>Updated on: 30/01/2013</p>
+
+      </section>
+
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>
