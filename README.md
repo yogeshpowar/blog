@@ -82,7 +82,3 @@
     * [Slash does matter](JustLikeThat/Slash_does_matter): Why one must be
       conscious while using `rm` #command with files with leading `/`
 
----
-Except where otherwise noted, contents are licensed under a [Creative Commons
-Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) International
-license

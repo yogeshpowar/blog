@@ -25,6 +25,7 @@ plugins:
 
 author:
   twitter: yogeshpowar
+  feed: http://localhost:4000/feed.xml
 
 feed:
   tag: true
