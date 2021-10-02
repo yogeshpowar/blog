@@ -2,6 +2,7 @@
 layout: posts
 title: Archlinux to save good old Ubuntu
 tags: GNU/Linux OS
+desc: Notes on recovering Ubuntu using Archlinux
 ---
 
 # Archlinux to save good old Ubuntu

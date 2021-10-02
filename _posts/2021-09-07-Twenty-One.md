@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Number 21; Twenty One; XXI
-tags: Life India
+tags: Random
 desc: Significance of Number 21
 ---
 
