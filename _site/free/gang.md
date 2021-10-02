@@ -1,8 +1,0 @@
-# The free software gang (Exposed)
-
-[![](http://2.bp.blogspot.com/-0MQFSQAQ4u4/UzzyBXE6W1I/AAAAAAAABUs/07jjZOwv5vM/s1600/meet_the_gang_exposed.png)](http://2.bp.blogspot.com/-0MQFSQAQ4u4/UzzyBXE6W1I/AAAAAAAABUs/07jjZOwv5vM/s1600/meet_the_gang_exposed.png)
-
-Just exposed [the gang of free software](http://www.fsf.org/working-together/gang).
-
----
-Updated on 3 Apr 2014
