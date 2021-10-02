@@ -1,8 +1,9 @@
-
 * [About Me](aboutMe)
 ---
 
 # Blogs
+
+- By Choronological Order
 
 <ul>
   {% for post in site.posts %}
@@ -14,7 +15,7 @@
         {% endif %}
         <li> tags:
             {% for tag in {{post.tags}} %}
-            <a href="tags/#{{ tag }}">{{ tag }}</a>
+            <a href="tags#{{ tag }}">{{ tag }}</a>
             {% endfor %}
         </li>
       </ul>
