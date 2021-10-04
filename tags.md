@@ -3,15 +3,26 @@
 
 # Blogs
 
-- Grouped by Tags
-
+Grouped by Tags To view by chronological order click [here]({{ site.github.repository_url }})
 
 <ul>
     {% for tag in site.tags %}
           <span id="{{ tag[0] }}"><h3>{{ tag[0] }}</h3> </span>
 		  <ul>
 			{% for post in tag[1] %}
-			  <li><a href="{{ site.github.repository_url }}{{ post.url }}">{{ post.title }}</a></li>
+			  <li>{{ post.date | date: "%Y-%m-%d" }}: <a href="{{ site.github.repository_url }}{{ post.url }}">{{ post.title }}</a>
+              <ul>
+                {% if {{post.desc}} %}
+                    <li> <em> {{ post.desc }} </em></li>
+                {% endif %}
+                <li> tags:
+                {% for tag in {{post.tags}} %}
+                    <a href="tags#{{ tag }}">{{ tag }}</a>
+                {% endfor %}
+                </li>
+              </ul>
+              </li>
+
 			{% endfor %}
 		  </ul>
 	{% endfor %}
