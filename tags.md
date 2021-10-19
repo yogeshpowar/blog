@@ -5,6 +5,14 @@
 
 Grouped by Tags To view by chronological order click [here]({{ site.github.repository_url }})
 
+<p>
+Tags: |
+{% for tag in site.tags %}
+<a href="{{ site.github.repository_url }}/tags#{{ tag[0] }}">{{ tag[0] }}</a>
+|
+{% endfor %}
+</p>
+
 <ul>
     {% for tag in site.tags %}
           <span id="{{ tag[0] }}"><h3>{{ tag[0] }}</h3> </span>
