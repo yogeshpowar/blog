@@ -45,7 +45,7 @@
           Tags:
           {% if page.tags %}
           {% for tag in page.tags %}
-            <a href="/tags#{{ tag }}">{{ tag }} </a>
+            <a href="{{ site.github.repository_url }}/tags#{{ tag }}">{{ tag }} </a>
           {% endfor %}
           {% endif %}
           <hr>
@@ -55,7 +55,7 @@
           Tags:
           {% if page.tags %}
           {% for tag in page.tags %}
-            <a href="/tags#{{ tag }}">{{ tag }} </a>
+            <a href="{{ site.github.repository_url }}/tags#{{ tag }}">{{ tag }} </a>
           {% endfor %}
           {% endif %}
 
