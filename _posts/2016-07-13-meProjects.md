@@ -90,5 +90,3 @@ work it gives a great pleasure.
 
 _Basically, process is more important than just the final product._
 
----
-Updated on: 13/07/2016

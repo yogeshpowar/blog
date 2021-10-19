@@ -74,6 +74,3 @@ If your bike stops then start it and start pushing it. Whenever it gets some
 speed then just change the gear to 2nd and then with slower throttle look on the
 sideways for the cable replacement.
 
----
-
-Updated on: 24/07/2016

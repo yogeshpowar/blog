@@ -50,7 +50,5 @@ scriptures](https://crossasia-journals.ub.uni-heidelberg.de/index.php/ejvs/artic
 and [in the worship of Lord
 Ganesha](https://bhargavasarma.blogspot.com/2013/09/significance-of-21-in-worship-of-lord.html).
 
----
-Updated On: Tue 07 Sep 2021 03:06:35 PM IST
 
 

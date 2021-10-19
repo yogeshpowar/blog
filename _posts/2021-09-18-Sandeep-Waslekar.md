@@ -44,7 +44,3 @@ While most would give full review stars; some like
 colleague has given a different
 [review](https://www.goodreads.com/review/show/685410402) and IMO he is also
 right.
-
----
-
-Updated on: 18 Sep 2021

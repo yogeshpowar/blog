@@ -62,7 +62,3 @@ desc: Book review on Roads and Bridges - Unseen Labor behind our public digital 
        - join [TODOGroup](https://todogroup.org/) and start a [open source
          program](https://todogroup.org/guides/)
 
-         
----
-
-Updated on Sun 26 Sep 2021

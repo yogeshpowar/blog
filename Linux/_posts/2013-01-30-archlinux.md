@@ -76,7 +76,3 @@ bogomips        : 3402.39
 ```
 
 Happy Hacking.
-
----
-
-Updated on: 30/01/2013

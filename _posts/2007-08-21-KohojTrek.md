@@ -56,6 +56,3 @@ to respect our privacy. Following is the trek summary
 src="http://1.bp.blogspot.com/_hiiwYtuYGgs/RssWHhUBQGI/AAAAAAAAAEM/3Zier__MGjw/s200/IMG_0322.JPG"
 alt="" id="BLOGGER_PHOTO_ID_5101195321384452194" border="0" />
 
----
-
-Updated On: 21/08/2007

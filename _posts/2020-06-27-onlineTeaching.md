@@ -75,6 +75,3 @@ this pandandemic situation, let teachers help the ones without right access.
 If scaling is the problem, let the school run some mentorship program.
 Senior-students/parents/volunteers can reach the specific students in need.
 
----
-
-Updated on: 27/06/2020

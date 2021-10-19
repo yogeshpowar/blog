@@ -42,7 +42,24 @@
       </header>
 
       <section>
+          Tags:
+          {% if page.tags %}
+          {% for tag in page.tags %}
+            <a href="/tags#{{ tag }}">{{ tag }} </a>
+          {% endfor %}
+          {% endif %}
+          <hr>
+
         {{ content }}
+          <hr>
+          Tags:
+          {% if page.tags %}
+          {% for tag in page.tags %}
+            <a href="/tags#{{ tag }}">{{ tag }} </a>
+          {% endfor %}
+          {% endif %}
+
+          <br>Updated on: {{ page.date | date: "%Y-%m-%d" }}
       </section>
 
       <footer>
