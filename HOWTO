@@ -1,0 +1,2 @@
+1. `cp _config.yml.local _config.yml`
+2. `bundle exec jekyll serve`
