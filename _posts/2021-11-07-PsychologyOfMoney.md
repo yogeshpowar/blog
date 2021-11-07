@@ -11,7 +11,7 @@ The author has put forward 20 key features of the psychology of money and each
 is backed by a reference from the history and a story around it. Unlike many
 money management this book has no mathematical references.
 
-The book has stressed enough on
+[The book](https://www.goodreads.com/book/show/41881472-the-psychology-of-money) has stressed enough on
 - Compounding and long term
     - *Growth is driven by compounding and which always takes time.*
 - Tails drive everything
