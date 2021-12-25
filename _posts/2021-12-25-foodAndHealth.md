@@ -5,6 +5,8 @@ tags: Food Health
 desc: Simple life hacks for better food and health
 ---
 
+# Food and Health 101
+
 Recently done an online course from Coursera on [food and
 health](https://www.coursera.org/learn/food-and-health/). It's a five week course
 but if one only goes through the transcripts it can be finished within a couple of
