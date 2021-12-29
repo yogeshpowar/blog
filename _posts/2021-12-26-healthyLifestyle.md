@@ -24,6 +24,8 @@ plan and pay it to your friend or donate.
 
 Happy New Year.
 
+PS: Why palm([^palm]) oil is in the list?
+
 ---
 
 [^running]: [Why We Run](/blog/2020/03/01/whywerun.html)
@@ -32,3 +34,6 @@ Happy New Year.
 [^fasting]: [Fasting: Beginner’s experience](/blog/2021/10/19/fasting.html)
 [^jamnadas]: [Coronary Artery Disease in South Asians](https://www.youtube.com/watch?v=JiBE4C3q0WQ)
 [^food101]: [Food and Health: 101](/blog/2021/12/25/foodAndHealth.html)
+[^palm]: Saturated Fats are good and palm oil falls in that category. Ref [The Fat Lies](https://youtu.be/Yo-IL-LH5FQ?t=711).
+         Preference must be given to non-seeded cold pressed oils than refined
+         ones.
