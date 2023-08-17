@@ -2,7 +2,7 @@
 layout: posts
 title: "Coupon v/s real v/s digital money"
 tags: money currency
-desc: Hands on the money
+desc: Let your kids have their hands on the real physical money.
 ---
 
 In my boarding school, Sainik School, we were provided with coupon money (paper
