@@ -9,8 +9,10 @@ In my boarding school, Sainik School, we were provided with coupon money (paper
 printed), which we could exchange at the school canteen for snacks and other
 items.
 
-The Indian currency we received was deposited in the bank (specifically, SBI at
-that time). On designated days after lunch, we would visit the bank, stand in
+The real currency or notes we received from our parents or from NCC were
+deposited in the bank (SBI at that time).
+
+To withdraw, on designated days after lunch, we would visit the bank, stand in
 line with withdrawal slips and bank passbooks, and wait to obtain a metal token.
 
 After a further wait, the teller would announce the token number, and only then
@@ -28,7 +30,6 @@ While the process was lengthy and laborious, it instilled valuable lessons in us
 In today's digital age, it's uncertain if our children will experience these
 aspects. The convenience of UPI and digital currencies may eliminate the need
 for such lessons, for better or worse.
-
 
 By the way, there is a concept known as `Financial Abstraction` which is well
 explained in the TED video titled [When Money Isn't Real](https://youtu.be/_VB39Jo8mAQ) by Adam Carroll. It
