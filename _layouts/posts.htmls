@@ -42,6 +42,8 @@
       </header>
 
       <section>
+          <H1> {{ page.title }} </H1>
+          <H3> {{ page.desc }} </H3>
           Tags:
           {% if page.tags %}
           {% for tag in page.tags %}
