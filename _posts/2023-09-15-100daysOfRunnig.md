@@ -41,7 +41,7 @@ barefoot. On some days, I targeted longer runs of 10-18 kms.
 7. Since these runs were solo and of short distances, I didn't focus much on my
    running form. Instead, I enjoyed the sights and observed my surroundings,
    people, animals, and nature. They were certainly stress-busters.
-8. As an flag bearer of barefoot running (after all, no one is born with shoes), I
+8. As a flag bearer of barefoot running (after all, no one is born with shoes), I
    wish the entire world would embrace barefoot running. It's healthy, safe on
    well-maintained roads, and immensely satisfying.
 
@@ -50,3 +50,7 @@ Finally, as always, thank you to everyone who supported me in achieving this
 goal.
 
 Happy Running!
+
+---
+PS: Many runner friends (15-20) from NCRunners joined me for the 100th run,
+which made the final run even more special.
