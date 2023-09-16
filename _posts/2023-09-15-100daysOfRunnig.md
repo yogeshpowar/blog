@@ -55,4 +55,4 @@ Happy Running!
 PS: Many runner friends (15-20) from NCRunners joined me for the 100th run,
 which made the final run even more special.
 
-<a href="/blog/assets/images/100DaysCelebration.jpeg"> <img src="/blog/assets/images/100DaysCelebration.jpeg" > </a>
+<a href="/blog/assets/images/100DaysCelebration.jpeg"> <img src="/blog/assets/images/100DaysCelebration.jpeg" height="250"> </a>
