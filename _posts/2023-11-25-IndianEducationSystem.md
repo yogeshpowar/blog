@@ -46,3 +46,8 @@ Education must evolve into a personalized, curiosity-driven experience, focusing
 on critical thinking, creativity, and inclusivity. Decentralization, fostering a
 love for learning, and acknowledging diverse student needs are pivotal in
 reshaping India's educational landscape.
+
+---
+
+This work is part of revamping India's education system series. This is part-I.
+Please read [part-II](https://yogeshpowar.github.io/blog/2023/11/26/IndianEducationSystemII.html) here.
