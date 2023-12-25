@@ -7,17 +7,17 @@ desc: Balancing Immediate Needs and Long-Term Goals
 
 Assuming adequate resources,
 
-a. Why cook food at home when we can order delicious, healthy, or affordable
+1. Why cook food at home when we can order delicious, healthy, or affordable
 food from outside?
-b. Why bake a cake instead of getting it from a bakery?
-c. Why maintain a kitchen garden instead of purchasing vegetables from the
+2. Why bake a cake instead of getting it from a bakery?
+3. Why maintain a kitchen garden instead of purchasing vegetables from the
 market?
-d. Why maintain your car/bike when you can send it to a mechanic with just a
+4. Why maintain your car/bike when you can send it to a mechanic with just a
 message?
-e. Why install your operating system when you can buy off-the-shelf software
+5. Why install your operating system when you can buy off-the-shelf software
 that updates automatically?
-f. Why DIY at all? Or why not DIY?
-g. Why work when you already have enough in banks or on paper?
+6. Why DIY at all? Or why not DIY?
+7. Why work when you already have enough in banks or on paper?
 
 The obvious benefits of DIY include:
 - Cost-effectiveness
