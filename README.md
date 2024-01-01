@@ -1,3 +1,5 @@
+<a ref="/aboutMe"><img src="/assets/images/yap.jpg"></img></a>
+---
 * [About Me](aboutMe)
 ---
 
