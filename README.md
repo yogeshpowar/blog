@@ -1,4 +1,4 @@
-<a ref="/aboutMe"><img src="/assets/images/yap.jpg"></img></a>
+<a ref="/aboutMe"><img src="/blog/assets/images/yap.jpg" alt="LIFE"></img></a>
 ---
 * [About Me](aboutMe)
 ---
