@@ -18,7 +18,6 @@ sudo apt install blueman
 * Enable the service
 ```
 sudo systemctl enable bluetooth.service
-
 ```
 
 ### Connect
