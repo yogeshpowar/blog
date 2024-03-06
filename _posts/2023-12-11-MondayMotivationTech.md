@@ -12,18 +12,20 @@ create meaningful contributions, learn, and grow in your role. Your satisfaction
 and passion will naturally reflect in the quality of your work, benefiting both
 you and the company.
 
-1. [ ] Purchase one unit of the instrument we are selling; this way, you **become
-       a user of our platform** and can notice user issues.
-2. [ ] Develop products with agility; practice **agile development** to adapt to
+1. [ ] Implement modular coding practices to enhance maintainability, reusability,
+       and scalability of code components.
+2. [ ] Develop products with agility; practice agile development to adapt to
        changing requirements.
-3. [ ] Embrace **diverse perspectives**, especially from different teams; isolating
+3. [ ] Purchase one unit of the instrument we are selling; this way, you **become
+       a user of our platform** and can notice user issues.
+4. [ ] Embrace diverse perspectives, especially from different teams; isolating
        teams hinder collaboration.
-4. [ ] Ensure quality in delivery, achievable only through **programmatically
+5. [ ] Ensure quality in delivery, achievable only through **programmatically
        testing**: unit tests (for developers) and automated testing (for QA).
-5. [ ] Maintain **transparency in communication**: documentations, meeting minutes,
+6. [ ] Maintain transparency in communication: documentations, meeting minutes,
        and reasoning behind decisions or feature assumptions must be accessible
        to the team.
-6. [ ] **Design ethically**, prioritizing user privacy and data security, while
+7. [ ] Design ethically, prioritizing user privacy and data security, while
        ensuring scalability with minimal infrastructure costs.
 
 ```
