@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meal Coupons</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .coupon-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #000;
+    margin: 0 auto;
+  }
+  .coupon-table td {
+    width: 25%; /* Each coupon takes up 25% of the table width */
+    border: 2px solid #000;
+    padding: 10px;
+  }
+  .coupon {
+    background-color: #fff;
+  }
+  .coupon h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .coupon p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .coupon .meal {
+    font-weight: bold;
+  }
+  .coupon .code {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px dashed #000;
+    padding: 5px;
+  }
+    /* Print-specific styles */
+  @media print {
+      .page-break {
+          page-break-before: always;
+      }
+  }
+</style>
+</head>
+<body>
+
+<table class="coupon-table">
+  <tbody id="coupon-body-1">
+  </tbody>
+</table>
+<div class="page-break"></div>
+<table class="coupon-table">
+  <tbody id="coupon-body-2">
+  </tbody>
+</table>
+<div class="page-break"></div>
+<table class="coupon-table">
+  <tbody id="coupon-body-3">
+  </tbody>
+</table>
+<div class="page-break"></div>
+<table class="coupon-table">
+  <tbody id="coupon-body-4">
+  </tbody>
+</table>
+<div class="page-break"></div>
+<table class="coupon-table">
+  <tbody id="coupon-body-5">
+  </tbody>
+</table>
+<div class="page-break"></div>
+<table class="coupon-table">
+  <tbody id="coupon-body-6">
+  </tbody>
+</table>
+
+
+
+
+<script>
+  // Generate 150 coupon codes
+  function generateCouponCodes() {
+    let couponCodes = [];
+    for (let i = 1; i <= 150; i++) {
+      couponCodes.push("NCLSOM" + i.toString().padStart(3, "0"));
+    }
+    return couponCodes;
+  }
+
+  // Generate HTML for coupons
+  function generateCoupons(id) {
+    let couponsHTML = "";
+    for (let i = 0; i < 24 ; i++) {
+      let code = couponCodes[i + ((id - 1) * 24)];
+      let date = "April 6th 2024";
+      let mealType = "Veg / Non-Veg";
+        if (i % 4 == 0) {
+            couponsHTML += '</tr><tr>'
+        }
+      couponsHTML += `
+          <td>
+            <div class="coupon">
+              <h1>Thank You</h1>
+              <p>${date}</p>
+              <p><span class="meal">${mealType}</span></p>
+              <div class="code"><span class="coupon-code">${code}</span></div>
+            </div>
+          </td>`;
+    }
+    document.getElementById("coupon-body" + "-" + id).innerHTML = couponsHTML;
+  }
+
+  // Call the function to generate coupons
+  let couponCodes = generateCouponCodes();
+
+  generateCoupons(1);
+  generateCoupons(2);
+  generateCoupons(3);
+  generateCoupons(4);
+  generateCoupons(5);
+  generateCoupons(6);
+</script>
+
+</body>
+</html>
