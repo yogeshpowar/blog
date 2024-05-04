@@ -8,27 +8,27 @@ desc: Growing the running community
 Following are some suggestions that we proposed in a brain storming session
 conducted with one of the oldest Marathons of India.
 
-1. XYZ Marathon has made tremendous contributions to making marathons popular
+1. `XYZMarathon` has made tremendous contributions to making marathons popular
    across India, but such information is not readily available to current
    runners.  There is a need to promote this.
 
 2. There are frequent marathons being organized everywhere in the country, but
    very few people know the right dos and don'ts while organizing them. Given
-   XYZ Marathon's years of experience in organizing marathons, it can
+   `XYZMarathon`'s years of experience in organizing marathons, it can
    develop a standard protocol for managing such events, which can be followed
    by all organizers.
 
 3. To spread awareness about running and related sports, there are many
-   countrywide groups that are active. In order to promote XYZ Marathon and
+   countrywide groups that are active. In order to promote `XYZMarathon` and
    running, instead of targeting individual runners from different regions, we
-   propose that XYZ Marathon can empower these running groups to spread
+   propose that `XYZMarathon` can empower these running groups to spread
    awareness in their localities. This can be achieved by sharing training plans
    (diet and workout), teaching strength training methods, helping them organize
    local community runs, providing them with digital presence, and promoting the
    individual groups.
 
 4. Every running event these days requires online registration, typically
-   through profit-driven companies' platforms. Instead of this, if XYZ Marathon
+   through profit-driven companies' platforms. Instead of this, if `XYZMarathon`
    helps create one online platform where registration can be done and funds can
    be disbursed to respective organizers, it would streamline the process. This
    would require approving and endorsing the running groups who will also be the
@@ -43,7 +43,7 @@ conducted with one of the oldest Marathons of India.
 
 6. Instead of delegating final event responsibilities to individuals, it can be
    assigned to groups from the very early stages. This will help groups engage
-   with XYZ Marathon organization very early on and develop a sense of
+   with `XYZMarathon` organization very early on and develop a sense of
    ownership.
 
 7. Running needs to be promoted in schools to encourage everyone to adopt
