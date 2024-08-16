@@ -5,9 +5,6 @@ tags: Sri Aurobindo
 desc: Sri Aurobindo
 ---
 
-<a href="/blog/assets/images/Sri_Aurobindo.jpeg">
-<img src="/blog/assets/images/Sri_Aurobindo.jpeg" height="250">
-
 We were fortunate to attend and complete the [Yoga Instructor’s
 Course](https://svyasa.edu.in/yoga-instructor-course/) from
 [S-Vyasa](https://svyasa.edu.in), a deemed university. It was an offline course
@@ -40,6 +37,9 @@ in that realization, we stay grounded."
 ---
 
 It is the 15th of August today, and it is Sri Aurobindo's birthday.
+
+<a href="/blog/assets/images/Sri_Aurobindo.jpeg">
+<img src="/blog/assets/images/Sri_Aurobindo.jpeg" height="250">
 
 There are a couple of videos that are true masterpieces—works of art that I
 would strongly recommend for exploring his life.
