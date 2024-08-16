@@ -108,6 +108,7 @@ c) Essays on the Gita
 d) Savitri
 
 Sri Aurobindo passed away on 5th December 1950.
+
 ---
 
 Sri Aurobindo's life and works continue to inspire generations, reminding us of
