@@ -39,8 +39,15 @@ in that realization, we stay grounded."
 
 ---
 
-It is the 15th of August today, and it is Sri Aurobindo's birthday. I am sharing
-a small essay on him, which I compiled from the The book, [The Synthesis
+It is the 15th of August today, and it is Sri Aurobindo's birthday.
+
+There are a couple of videos that are true masterpieces—works of art that I
+would strongly recommend for exploring his life.
+
+1. [Sri Aurobindo: A New Dawn: An Inspirational Hand Painted Animation Film.](https://youtu.be/5W6AZpK0N0c) (28 Mins)  
+2. [Sri Aurobindo & the Earth's Future - Part I : From Darkness to Light.](https://youtu.be/47yhMAAjRyM) (2.24 hrs)  
+
+I am sharing a small essay on him, which I compiled from the The book, [The Synthesis
 of Yoga](https://archive.org/details/the-synthesis-of-yoga-sri-aurobindo), by Sri
 Aurobindo and his [Wiki page](https://en.wikipedia.org/wiki/Sri_Aurobindo) and .
 It is compiled with the intention of introducing Sri Aurobindo and his
@@ -101,10 +108,10 @@ monitored his activities.
 Sri Aurobindo was nominated twice for the Nobel Prize—once in 1943 for
 Literature and again in 1950 for Peace—but did not receive the award.
 
-His well-known publications include:
-a) The Life Divine
-b) The Synthesis of Yoga
-c) Essays on the Gita
+His well-known publications include:  
+a) The Life Divine  
+b) The Synthesis of Yoga  
+c) Essays on the Gita  
 d) Savitri
 
 Sri Aurobindo passed away on 5th December 1950.
