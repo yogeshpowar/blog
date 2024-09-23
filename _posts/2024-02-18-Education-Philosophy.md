@@ -47,7 +47,7 @@ and guide not as an instructor or task-master
 ## Rabindranth Tagore on Education
 
 Following Snippet is from the book titled "Autobiography of a Yogi by Paramhansa
-Yoganand. They are comparing the schools they founded then Shantiniketan by
+Yoganand". They are comparing the schools they founded then Shantiniketan by
 Rabindranath, from the land donated by his father and 8000 Pounds he received
 from the Noble Prize, and Yogoda by Yogi Paramhansa Yoganand.
 
@@ -55,15 +55,16 @@ from the Noble Prize, and Yogoda by Yogi Paramhansa Yoganand.
 Tagore and I were soon deep in comparative study of our schools, both founded
 along unorthodox lines.  We discovered many identical features - outdoor
 instructions, simplicity, ample scope of the child's creative spirit.
-Rabindranath, however, laid considerable stress on study of **literature and
-poetry and self expression through music and song, which I had already noted in
+Rabindranath, however, laid considerable stress on study of *literature and
+poetry and self expression through music and song*, which I had already noted in
 the case of Bhola. The Santiniketan childern observed periods of silence but
 were given no special yoga training.
 
 The poet listened with flattering attention to my description of the energising
-"Yogoda" exercises and the yoga concentration techniques which are taught to all
+Yogoda exercises and the yoga concentration techniques which are taught to all
 students at Ranchi.
 </quote>
+
 
 ```
 Where the mind is without fear and the head is held high;
@@ -78,6 +79,7 @@ Into that heaven of freedom, my father, let my coutry awake!"
 
                                                         -- Rabindranath Tagore
 ```
+
 ---
 [^sri]: Shri Aurobindo's thought on education with special reference to the role of a teacher. [paper link](https://www.researchgate.net/publication/362839650_SHRI_AUROBINDO%27S_THOUGHT_ON_EDUCATION_WITH_SPECIAL_REFERENCE_TO_THE_ROLE_OF_A_TEACHER)
 [^swami]: Found in [this book](https://www.vedanta.com/store/great-sayings-with-illustrations-details.html)
