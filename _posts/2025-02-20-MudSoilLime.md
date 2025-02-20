@@ -2,10 +2,23 @@
 layout: posts
 title: "Mud, Soil & Lime"
 tags: Construction Building Soil Lime
-desc: Constructing a sustainable & eco-friendly farmhouse.
+desc: Construction using sustainable & eco-friendly ways
 ---
+Traditional construction techniques have stood the test of time, offering
+durability, climate adaptability, and sustainability. Many ancient 
+methods - like lime plastering, rammed earth walls, and stone masonry—are 
+not only environmentally friendly but also cost-effective in the long run.
+
+Reviving these techniques can help reduce dependence on modern 
+energy-intensive materials like cement and steel, leading to more 
+decentralized and resilient communities. It's crucial to document, 
+practice, and teach these methods to ensure they are not lost to 
+future generations.
+
+## Why?
 
 The houses built with mud/soil & lime are
+
 1. Eco friendly
       1. Unlike Cement, it has very low carbon footprint
       2.  Not an product of factory
@@ -28,7 +41,9 @@ Here are some beautiful structures build using soil & lime.
     ![](https://files.auroville.org/auroville-org/517fd018-4678-4d3f-afe8-3e5d3cc0f58e.jpg)
 * Hunnarshala Foundation
     ![](https://i.pinimg.com/originals/9b/8d/74/9b8d74f55bec8f035ec13230b15965a6.jpg)
-## Construction Techniques
+
+
+## How ?
 
 A. Traditional Mud Construction
 - *Cob Construction*: A mix of clay, sand, straw, and water is molded by hand and
@@ -37,7 +52,7 @@ A. Traditional Mud Construction
     - [source](https://en.wikipedia.org/wiki/Cob_(material))
 - *Rammed Earth*: Layers of damp soil are compacted within a temporary frame,
   creating solid and durable walls.
-    - <img src="/blog/assets/images/mud/rammed.png" height="200"><img src="/assets/images/mud/rammed1.png" height="200">
+    - <img src="/blog/assets/images/mud/rammed.png" height="200"><img src="/blog/assets/images/mud/rammed1.png" height="200">
     - [source](https://www.greenspec.co.uk/images/web/materials/rammedearth/rammed-earth-technique.jpg)
 - *Adobe Bricks*: Sun-dried mud bricks are stacked with a mud-lime mortar,
   providing stability and breathability.
@@ -69,5 +84,10 @@ B. Lime Integration for Durability
 - Their projects demonstrate how modern aesthetics and traditional techniques
   can blend seamlessly.
 - [Website](https://auroville.org/page/earth-institute)
+
+## Where ?
+
+The project `The lion Roar of Advait` has begun and more on it soon.
+
 
 ---
