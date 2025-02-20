@@ -15,8 +15,6 @@ decentralized and resilient communities. It's crucial to document,
 practice, and teach these methods to ensure they are not lost to 
 future generations.
 
-## Why?
-
 The houses built with mud/soil & lime are
 
 1. Eco friendly
@@ -42,8 +40,7 @@ Here are some beautiful structures build using soil & lime.
 * Hunnarshala Foundation
     ![](https://i.pinimg.com/originals/9b/8d/74/9b8d74f55bec8f035ec13230b15965a6.jpg)
 
-
-## How ?
+There are different methods of construction using mud, soil, clay & lime. 
 
 A. Traditional Mud Construction
 - *Cob Construction*: A mix of clay, sand, straw, and water is molded by hand and
