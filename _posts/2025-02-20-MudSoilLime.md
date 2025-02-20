@@ -82,9 +82,8 @@ B. Lime Integration for Durability
   can blend seamlessly.
 - [Website](https://auroville.org/page/earth-institute)
 
-## Where ?
 
-The project `The lion Roar of Advait` has begun and more on it soon.
-
+With the grace of divine and taking some inspirations from these projects we have begun the project `The lion Roar of Advait` near Pune/India.
+More on it later.
 
 ---
