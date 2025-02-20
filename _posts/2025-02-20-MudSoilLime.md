@@ -6,46 +6,46 @@ desc: Constructing a sustainable & eco-friendly farmhouse.
 ---
 
 The houses built with mud/soil & lime are
-a) Eco friendly
-    i. Unlike Cement, it has very low carbon footprint
-    ii. Not an product of factory
-    ii. Transportation emission cost
-b) Energy efficient
-    i. Mud walls have high thermal mass, cooler in summer & warmer in winter
-    ii. Breathable: Lime allows walls to breath, preventing moisture buildup and
-    improving indoor air quality.
-    iii. Lower Energy Bills
-c) Cost Effectiveness
-    i. Cement & steel are costlier
-    ii. Properly built mud-lime structures require little maintenance and last
-    for generations.
-d) Aesthetic & Cultural Value
-    i. Such buildings have a timeless, earthy look that blends with nature.
+1. Eco friendly
+      1. Unlike Cement, it has very low carbon footprint
+      2.  Not an product of factory
+      3. Transportation emission cost
+2. Energy efficient
+      1. Mud walls have high thermal mass, cooler in summer & warmer in winter
+      2. Breathable: Lime allows walls to breath, preventing moisture buildup and
+         improving indoor air quality.
+      3. Lower Energy Bills
+3. Cost Effectiveness
+      1. Cement & steel are costlier
+      2. Properly built mud-lime structures require little maintenance and last
+         for generations.
+4. Aesthetic & Cultural Value
+      1. Such buildings have a timeless, earthy look that blends with nature.
 
 Here are some beautiful structures build using soil & lime.
 
 * Auroville Earth Institute
     ![](https://files.auroville.org/auroville-org/517fd018-4678-4d3f-afe8-3e5d3cc0f58e.jpg)
 * Hunnarshala Foundation
-    ![](https://www.re-thinkingthefuture.com/wp-content/uploads/2022/07/A7329-Hunnarshala-Foundation-Pioneering-Sustainable-Architecture-of-Regional-India-Image-2-1024x686.jpg)
+    ![](https://i.pinimg.com/originals/9b/8d/74/9b8d74f55bec8f035ec13230b15965a6.jpg)
 ## Construction Techniques
 
 A. Traditional Mud Construction
 - *Cob Construction*: A mix of clay, sand, straw, and water is molded by hand and
   built up in layers. This method creates strong, sculptural walls.
-    - <img src="/assets/images/mud/cob.png" height="200">
+    - <img src="/blog/assets/images/mud/cob.png" height="200">
     - [source](https://en.wikipedia.org/wiki/Cob_(material))
 - *Rammed Earth*: Layers of damp soil are compacted within a temporary frame,
   creating solid and durable walls.
-    - <img src="/assets/images/mud/rammed.png" height="200"><img src="/assets/images/mud/rammed1.png" height="200">
+    - <img src="/blog/assets/images/mud/rammed.png" height="200"><img src="/assets/images/mud/rammed1.png" height="200">
     - [source](https://www.greenspec.co.uk/images/web/materials/rammedearth/rammed-earth-technique.jpg)
 - *Adobe Bricks*: Sun-dried mud bricks are stacked with a mud-lime mortar,
   providing stability and breathability.
-    - <img src="/assets/images/mud/adobe.png" height="200">
+    - <img src="/blog/assets/images/mud/adobe.png" height="200">
     - [source](https://en.wikipedia.org/wiki/Adobe)
 - *Wattle and Daub*: A woven lattice of wooden strips is coated with a mud-lime
   mixture, offering flexibility and earthquake resistance.
-    - <img src="/assets/images/mud/wattleDaub.png" height="200">
+    - <img src="/blog/assets/images/mud/wattleDaub.png" height="200">
     - [source](https://i.pinimg.com/originals/83/ab/16/83ab1653466445712f3b822df5a79c98.jpg)
 
 B. Lime Integration for Durability
