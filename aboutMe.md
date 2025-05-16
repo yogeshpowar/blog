@@ -56,7 +56,8 @@
   * Debian GNU/Linux
 * Running
   * Member & volunteer at NCRunners @ Pune
-  * Couple of marathons and many 30+ & half marathons
+  * 1 Ultra & 5 marathons and many 30+ & half marathons
+  * 70.3 Half Ironman distance at Burgman Triathlon
   * Barefoot Running
 * Bike Riding
   * RE Standard 350: Iron cast
