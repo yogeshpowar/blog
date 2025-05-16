@@ -4,8 +4,12 @@
 
 ## Professional Experience
 
-### Orowealth: 2016-
+### Incred Money: 2022-
+* CTO at [Incredmoney.com](https://www.incredmoney.com)
+  
+### Orowealth: 2016-2022
 * CTO & Co-founder at [orowealth.com](https://www.orowealth.com)
+* Aquired by Incred.
 * Fintech, Wealth Managment
 * Bringing Smarter investing for everyone
 
