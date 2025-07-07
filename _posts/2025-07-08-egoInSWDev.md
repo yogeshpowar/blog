@@ -2,7 +2,7 @@
 layout: posts
 title: "Ego Is the Silent Bug in Your Codebase"
 tags: Software collaboration
-desc: When you rise above the self, you see the system
+desc: When you rise above the self you see the system
 ---
 
 Software engineering is not a solo sport. Its not about writing clever, complex
