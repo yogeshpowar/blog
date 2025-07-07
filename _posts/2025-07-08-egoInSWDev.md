@@ -45,5 +45,3 @@ creates silos, and prevents progress.
 When you rise above the self, you see the system.
 
 Happy Coding
-
----
