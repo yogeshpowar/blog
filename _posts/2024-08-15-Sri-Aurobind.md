@@ -45,7 +45,8 @@ There are a couple of videos that are true masterpieces—works of art that I
 would strongly recommend for exploring his life.
 
 1. [Sri Aurobindo: A New Dawn: An Inspirational Hand Painted Animation Film.](https://youtu.be/5W6AZpK0N0c) (28 Mins)  
-2. [Sri Aurobindo & the Earth's Future - Part I : From Darkness to Light.](https://youtu.be/47yhMAAjRyM) (2.24 hrs)  
+2. [Sri Aurobindo & the Earth's Future - Part I : From Darkness to Light.](https://youtu.be/47yhMAAjRyM) (2.24 hrs)
+3. [Sri Aurobindo: A Call to New India](https://youtu.be/ozniXGfHHn0) (14 mins)
 
 I am sharing a small essay on him, which I compiled from the The book, [The Synthesis
 of Yoga](https://archive.org/details/the-synthesis-of-yoga-sri-aurobindo), by Sri
