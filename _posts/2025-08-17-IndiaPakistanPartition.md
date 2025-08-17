@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Who is responsible for India & Pak partition"
+title: "Who is responsible for the partition of India"
 tags: India
 desc: The Partition of India and forces working against it
 ---
