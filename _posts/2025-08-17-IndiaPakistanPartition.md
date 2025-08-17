@@ -2,7 +2,7 @@
 layout: posts
 title: "Who is responsible for India & Pak partition"
 tags: India
-desc: Partition of India and forces working against it
+desc: The Partition of India and forces working against it
 ---
 
 Pre-requisite - listend to [this](https://youtu.be/MEq4dtWHik0?feature=shared)
@@ -14,7 +14,7 @@ a century worth of strategy they executed to do the same.
 
 # Timeline of Partition Responsibility
 
-![](/assets/images/IndiaPartition.png)
+![](/blog/assets/images/IndiaPartition.png)
 
 (Credits to ChatGPT)
 
