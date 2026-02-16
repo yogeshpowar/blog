@@ -13,7 +13,7 @@ We began at 6:45 AM, riding through quiet roads and layered landscapes. Our firs
 
 ## Bamboo Setu & the Village Context
 
-We were accompanied by Mr. and Mrs. Kashid, who run [Bamboo Setu — a cooperative initiative that leases land from villagers to develop bamboo plantations, creating livelihood opportunities and promoting bamboo-based solutions for the community.
+We were accompanied by Mr. and Mrs. Kashid, who run [Bamboo Setu](https://maps.app.goo.gl/kGVpJSvJcJLG4hCd6) — a cooperative initiative that leases land from villagers to develop bamboo plantations, creating livelihood opportunities and promoting bamboo-based solutions for the community.
 
 I had visited this place a year earlier while exploring bamboo for building an isometric dome, and that earlier connection prompted this visit. Jayatpada is remote—no mobile network, limited connectivity—but still has electricity. Architecturally and culturally, the village remains rooted in its traditional form: mud houses, stone walls, lime plaster, and functional layouts that reflect an older, sustainable way of living.
 
