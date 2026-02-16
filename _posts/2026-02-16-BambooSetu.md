@@ -5,7 +5,7 @@ tags: Cycling
 desc: A Cycle Ride to Jayatpada
 ---
 
-On the 14th, eleven of us - cyclists from [NCRunners](https://ncrunners.in) -  set out for a two-day cycling journey to [Jayatpada](/blog/assets/images/bambooSetu/route.jpeg), a remote village located about 21 km beyond Bhor towards the Bhatghar Dam, and roughly 75 km from Pune.
+On the 14th Feb, eleven of us - cyclists from [NCRunners](https://ncrunners.in) -  set out for a two-day cycling journey to [Jayatpada](/blog/assets/images/bambooSetu/route.jpeg), a remote village located about 21 km beyond Bhor towards the Bhatghar Dam, and roughly 75 km from Pune.
 
 ![](/blog/assets/images/bambooSetu/bhor.jpeg)
 
