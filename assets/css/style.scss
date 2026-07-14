@@ -1,13 +1,356 @@
 ---
 ---
 
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@400;500;600;700&display=swap");
 @import 'jekyll-theme-dinky';
-a.twitter {
-    background: url(../images/icons8-twitter-50.png) no-repeat 1px;
+
+/* ==========================================================================
+   Modern overlay on the Dinky theme
+   ========================================================================== */
+
+$accent: #a62339;
+$accent-dark: #7f1a2c;
+$paper: #faf8f4;
+$ink: #2b2b30;
+$ink-soft: #5c5c66;
+$line: #e6e1d6;
+$sidebar-bg-1: #23252f;
+$sidebar-bg-2: #16171d;
+
+/* ---- Base & typography ---- */
+
+body {
+  background-color: $paper;
+  color: $ink;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  padding: 0;
 }
-a.feed {
-    background: url(../images/icons8-feed-64.png) no-repeat 1px;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", Georgia, serif;
+  color: $ink;
+  border-bottom: none;
+  font-weight: 600;
 }
-a.home {
-    background: url(../images/icons8-home-24.png) no-repeat 1px;
+
+h1 { font-size: 32px; line-height: 1.25; }
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid $line;
+  padding-bottom: 8px;
+  margin-top: 44px;
+}
+h3 { font-size: 19px; margin-top: 36px; }
+
+section a {
+  color: $accent;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgba($accent, 0.25);
+  text-underline-offset: 3px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+
+  &:hover {
+    color: $accent-dark;
+    text-decoration-color: $accent-dark;
+  }
+}
+
+strong { color: darken($ink, 8%); }
+
+hr {
+  border: none;
+  height: 1px;
+  background: $line;
+  margin: 40px 0;
+}
+
+/* ---- Layout: centered page ---- */
+
+.wrapper {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+header {
+  width: 180px;
+  padding: 34px 26px 26px;
+  margin: 40px 0 0;
+  left: max(20px, calc(50% - 510px));
+  background: linear-gradient(160deg, $sidebar-bg-1 0%, $sidebar-bg-2 100%);
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(20, 20, 30, 0.25);
+  color: #e9e7e1;
+
+  h1.header {
+    font-family: "Lora", Georgia, serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+  }
+
+  p.header {
+    font-size: 14px;
+    color: #a9a8b0;
+  }
+
+  li {
+    width: auto;
+    height: auto;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    box-shadow: none;
+    transition: background 0.15s ease, transform 0.15s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.14);
+      transform: translateX(3px);
+    }
+  }
+}
+
+a.buttons {
+  text-shadow: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #f0eeea;
+  background-position: 0 center;
+  background-size: 16px 16px;
+  height: auto;
+  padding: 2px 2px 2px 24px;
+}
+
+a.twitter { background: url(../images/icons8-twitter-50.png) no-repeat 0 center; background-size: 16px 16px; }
+a.feed    { background: url(../images/icons8-feed-64.png)    no-repeat 0 center; background-size: 16px 16px; }
+a.home    { background: url(../images/icons8-home-24.png)    no-repeat 0 center; background-size: 16px 16px; }
+
+section {
+  width: 700px;
+  padding: 40px 0 60px;
+}
+
+footer {
+  width: 180px;
+  padding: 0 26px;
+  left: max(20px, calc(50% - 510px));
+  color: $ink-soft;
+
+  a { color: $accent; }
+}
+
+/* ---- Content components ---- */
+
+table {
+  width: 100%;
+  border: 1px solid $line;
+  border-collapse: collapse;
+  font-size: 15px;
+
+  th {
+    background: #f0ede5;
+    color: $ink;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 2px solid $line;
+  }
+
+  td {
+    background: transparent;
+    padding: 9px 14px;
+    border-bottom: 1px solid $line;
+  }
+
+  tr:nth-child(even) td { background: #f6f3ec; }
+  tr:last-child td { border-bottom: none; }
+}
+
+blockquote {
+  margin: 28px 0;
+  padding: 14px 22px;
+  background: #f3efe6;
+  border-left: 4px solid $accent;
+  border-radius: 0 10px 10px 0;
+  color: #4a4a52;
+
+  p:last-child { margin-bottom: 0; }
+}
+
+code, pre {
+  font-size: 14px;
+}
+
+code {
+  background: #efece3;
+  border-radius: 5px;
+  padding: 2px 6px;
+  font-size: 0.88em;
+}
+
+pre {
+  background: #f4f2ea;
+  border: 1px solid $line;
+  border-radius: 10px;
+  padding: 14px 18px;
+  line-height: 1.6;
+
+  code {
+    background: none;
+    padding: 0;
+    font-size: 14px;
+  }
+}
+
+img {
+  max-width: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(30, 30, 40, 0.12);
+  padding: 0;
+}
+
+/* ---- Post header / footer ---- */
+
+.post-header {
+  margin-bottom: 8px;
+
+  .post-title {
+    margin: 0 0 6px;
+    border-bottom: none;
+  }
+
+  .post-desc {
+    font-family: "Lora", Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: $ink-soft;
+    margin: 0 0 14px;
+  }
+}
+
+.post-meta {
+  font-size: 13.5px;
+  color: $ink-soft;
+  margin-bottom: 26px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid $line;
+}
+
+.post-footer {
+  margin-top: 48px;
+  padding-top: 22px;
+  border-top: 1px solid $line;
+  font-size: 13.5px;
+  color: $ink-soft;
+}
+
+a.tag {
+  display: inline-block;
+  background: rgba($accent, 0.08);
+  border: 1px solid rgba($accent, 0.22);
+  color: $accent;
+  border-radius: 999px;
+  padding: 1px 12px;
+  margin: 0 4px 4px 0;
+  font-size: 12.5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: rgba($accent, 0.16);
+    color: $accent-dark;
+    text-decoration: none;
+  }
+}
+
+/* ---- Index post list ---- */
+
+ul.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px;
+
+  > li {
+    list-style: none;
+    padding: 16px 0;
+    border-bottom: 1px solid $line;
+
+    &:last-child { border-bottom: none; }
+  }
+
+  .post-list-title {
+    font-family: "Lora", Georgia, serif;
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+
+  .post-list-meta {
+    font-size: 13px;
+    color: $ink-soft;
+    margin-top: 2px;
+
+    time { margin-right: 8px; }
+  }
+
+  .post-list-desc {
+    font-size: 14.5px;
+    color: $ink-soft;
+    margin-top: 4px;
+    font-style: italic;
+  }
+}
+
+.tag-cloud {
+  padding: 14px 0 6px;
+}
+
+/* ---- Responsive ---- */
+
+@media print, screen and (max-width: 1060px) {
+  .wrapper { width: auto; margin: 0; padding: 0 24px; }
+
+  header {
+    position: static;
+    float: none;
+    width: auto;
+    margin: 24px 0 0;
+    padding: 26px 28px 20px;
+  }
+
+  section {
+    float: none;
+    width: auto;
+    padding: 28px 0 40px;
+  }
+
+  footer {
+    position: static;
+    float: none;
+    width: auto;
+    margin: 0;
+    padding: 18px 0 24px;
+    border-top: 1px solid $line;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body { font-size: 15px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 21px; }
 }

@@ -5,36 +5,31 @@
 
 Grouped by Tags To view by chronological order click [here]({{ site.github.repository_url }})
 
-<p>
-Tags: |
+<p class="tag-cloud">
 {% for tag in site.tags %}
-<a href="{{ site.github.repository_url }}/tags#{{ tag[0] }}">{{ tag[0] }}</a>
-|
+<a class="tag" href="{{ site.github.repository_url }}/tags#{{ tag[0] }}">{{ tag[0] }}</a>
 {% endfor %}
 </p>
 
-<ul>
-    {% for tag in site.tags %}
-          <span id="{{ tag[0] }}"><h3>{{ tag[0] }}</h3> </span>
-		  <ul>
-			{% for post in tag[1] %}
-			  <li>{{ post.date | date: "%Y-%m-%d" }}: <a href="{{ site.github.repository_url }}{{ post.url }}">{{ post.title }}</a>
-              <ul>
-                {% if {{post.desc}} %}
-                    <li> <em> {{ post.desc }} </em></li>
-                {% endif %}
-                <li> tags:
-                {% for tag in {{post.tags}} %}
-                    <a href="tags#{{ tag }}">{{ tag }}</a>
-                {% endfor %}
-                </li>
-              </ul>
-              </li>
-
-			{% endfor %}
-		  </ul>
-	{% endfor %}
-</ul>
+{% for tag in site.tags %}
+  <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+  <ul class="post-list">
+    {% for post in tag[1] %}
+      <li>
+        <a class="post-list-title" href="{{ site.github.repository_url }}{{ post.url }}">{{ post.title }}</a>
+        <div class="post-list-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          {% for t in post.tags %}
+            <a class="tag" href="tags#{{ t }}">{{ t }}</a>
+          {% endfor %}
+        </div>
+        {% if post.desc %}
+          <div class="post-list-desc">{{ post.desc }}</div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
 
 ---
 
