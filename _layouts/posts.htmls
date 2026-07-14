@@ -37,31 +37,40 @@
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
           </ul>
         {% endif %}
+        <ul>
             <li><a class="buttons twitter" href="https://twitter.com/{{ site.author.twitter }}">Twitter Profile</a></li>
             <li><a class="buttons feed" href="{{ site.author.feed }}">Feed Subscribe</a></li>
+        </ul>
       </header>
 
       <section>
-          <H1> {{ page.title }} </H1>
-          <H3> {{ page.desc }} </H3>
-          Tags:
-          {% if page.tags %}
-          {% for tag in page.tags %}
-            <a href="{{ site.github.repository_url }}/tags#{{ tag }}">{{ tag }} </a>
-          {% endfor %}
-          {% endif %}
-          <hr>
+          <div class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+            {% if page.desc %}
+              <p class="post-desc">{{ page.desc }}</p>
+            {% endif %}
+            <div class="post-meta">
+              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+              {% if page.tags %}
+                &nbsp;·&nbsp;
+                {% for tag in page.tags %}
+                  <a class="tag" href="{{ site.github.repository_url }}/tags#{{ tag }}">{{ tag }}</a>
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
 
         {{ content }}
-          <hr>
-          Tags:
-          {% if page.tags %}
-          {% for tag in page.tags %}
-            <a href="{{ site.github.repository_url }}/tags#{{ tag }}">{{ tag }} </a>
-          {% endfor %}
-          {% endif %}
 
-          <br>Updated on: {{ page.date | date: "%Y-%m-%d" }}
+          <div class="post-footer">
+            {% if page.tags %}
+              {% for tag in page.tags %}
+                <a class="tag" href="{{ site.github.repository_url }}/tags#{{ tag }}">{{ tag }}</a>
+              {% endfor %}
+              <br>
+            {% endif %}
+            Updated on: {{ page.date | date: "%Y-%m-%d" }}
+          </div>
       </section>
 
       <footer>

@@ -9,6 +9,9 @@
 #  math_engine: mathjax
 #  syntax_highlighter: rouge
 
+baseurl: "/blog"
+url: "https://yogeshpowar.github.io"
+
 theme: jekyll-theme-dinky
 title: [श्री Yogesh Ashok Powar]
 description: [Personal Blogs]

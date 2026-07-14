@@ -1,26 +1,24 @@
-<a ref="/aboutMe"><img src="/blog/assets/images/yap.jpg" alt="LIFE"></a>
----
+<a href="aboutMe"><img class="profile-photo" src="assets/images/yap.jpg" alt="LIFE"></a>
+
 * [About Me](aboutMe)
----
 
 # Blogs
 
-Arranged in chronological Order. To view by tags click [here]({{ site.github.repository_url }}/tags)
+Arranged in chronological order. To view by tags click [here]({{ site.github.repository_url }}/tags)
 
-<ul>
+<ul class="post-list">
   {% for post in site.posts %}
     <li>
-      {{ post.date | date: "%Y-%m-%d" }}: <a href="{{ site.github.repository_url }}{{ post.url }}">{{ post.title }}</a>
-      <ul>
-        {% if {{post.desc}} %}
-            <li> <em>{{ post.desc }} </em> </li>
-        {% endif %}
-        <li> tags:
-            {% for tag in {{post.tags}} %}
-            <a href="tags#{{ tag }}">{{ tag }}</a>
-            {% endfor %}
-        </li>
-      </ul>
+      <a class="post-list-title" href="{{ site.github.repository_url }}{{ post.url }}">{{ post.title }}</a>
+      <div class="post-list-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        {% for tag in post.tags %}
+          <a class="tag" href="tags#{{ tag }}">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% if post.desc %}
+        <div class="post-list-desc">{{ post.desc }}</div>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
