@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Don't Fear AI. Learn to Engineer With It."
+title: Dont Fear AI, Learn to Engineer With It
 tags: AI engineering students education
 desc: TLDR. AI will not do the learning for you. Use it to think faster and build more, not to skip understanding.
 ---
