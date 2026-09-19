@@ -12,6 +12,8 @@
 baseurl: "/blog"
 url: "https://yogeshpowar.github.io"
 
+timezone: Asia/Kolkata
+
 theme: jekyll-theme-dinky
 title: [श्री Yogesh Ashok Powar]
 description: [Personal Blogs]
