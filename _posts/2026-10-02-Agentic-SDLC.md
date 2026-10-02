@@ -40,6 +40,35 @@ teams answer them with roles, reviews, environments, approvals and
 history. Agents need the same - written down, so that every agent follows
 it the same way every time.
 
+## Not the first, and that's fine
+
+Role-based agent teams for software are not new. [MetaGPT](https://github.com/FoundationAgents/MetaGPT)
+(2023) gave agents the roles of product manager, architect, engineer and
+QA, with standard procedures and written handoffs between them.
+[ChatDev](https://github.com/OpenBMB/ChatDev) ran a virtual software
+company through waterfall phases. The [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD)
+brought agile story files and analyst, PM, architect, dev and QA agents.
+Spec-driven tools like GitHub's [Spec Kit](https://github.com/github/spec-kit)
+and AWS's [Kiro](https://kiro.dev/) made the spec the source of truth for
+agents. And most agent platforms now trace runs and track token costs.
+
+These showed that agents can write software together. Most of them stop
+when the code is written, or when a pull request is opened. ai_sdlc
+focuses on what comes after that:
+
+1. promotion through real environments (dev → uat → stage → prod), with a
+   QA gate at each one and a rehearsed rollback,
+2. human approvals that are committed, and pinned to the exact commit and
+   binary being shipped,
+3. an audit trail that lives in the repo, as plain text in git, with no
+   platform needed,
+4. a live view that a human can actually watch,
+5. and a vendor-neutral protocol, not a product. It works with any agent
+   runner that can read and write files.
+
+It is one practitioner's protocol, tested on one pilot. Read what follows
+as a field report, not a breakthrough.
+
 ## What ai_sdlc is
 
 It is a protocol plus a template, not a platform. You run
