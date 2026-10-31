@@ -21,7 +21,7 @@ matter most are marked ★. Answering those alone fills the biggest gaps.
 ## General
 
 **G1.** Title. Keep "Human Map, Agent Hands"?
-Answer:
+Answer: DONE (2026-11-01). Kept, with the new subtitle.
 
 **G2.** Publication date (for the post file name and front matter).
 Answer:

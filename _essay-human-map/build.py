@@ -108,8 +108,8 @@ image: {COVER}
 mark.ph {{ background: #fff3b0; padding: 0 .2em; }}
 </style>
 
-*How AI and agents are changing software teams, what they really cost, and
-why the most valuable decision is often what not to build.*
+*Agents made building cheap. Owning, running, and choosing what to build are
+still ours.*
 
 ![A hand drawing a boundary line on a map divided into green, amber, and red zones, with many small builders at work in the green zone and fewer in the amber zone]({{{{ '{COVER}' | relative_url }}}})
 

@@ -7,27 +7,12 @@ book_home: /human-map-agent-hands/
 chapter: 2
 permalink: /human-map-agent-hands/02-three-kinds-of-teams/
 image: /images/human-map-agent-hands-cover.jpg
-mermaid: true
 ---
 
 Teams are responding to agents in three broad ways. These are not labels
 for people, and none of them is foolish. Each is a reasonable answer to a
 real fear, each fails in its own way, and a single company can have all
 three at once. I have seen all three at work.
-
-{% raw %}
-```mermaid
-flowchart TD
-    O["<b>Orthodox</b><br/>speed: low · human review: high"]
-    S["<b>Agent-skeptic</b><br/>speed: medium · human review: high"]
-    M(["<b>The mix</b><br/>autonomy set by risk"])
-    F["<b>Fully agentic</b><br/>speed: high · human review: low"]
-    O -- "faster, less review" --> S
-    S --> M
-    M -- "faster, less review" --> F
-    style M stroke-width:3px
-```
-{% endraw %}
 
 The first is the **orthodox team**. It works the way good teams worked five
 years ago: requirements written and estimated, code built and reviewed by

@@ -91,7 +91,7 @@ time, as the evidence earns it. For production, we are not there yet.
 
 Three things make this work in practice. First, **the risk class is part
 of the map**, decided by a person before the agent starts, not inferred by
-the agent afterwards. Second, the tiers are *enforced by the system*, not
+the agent afterwards. Second, the tiers are enforced by the system, not
 by good intentions: permissions, branch protections, deployment gates, and
 credentials that the agent simply does not have in the higher tiers. An
 agent that is told not to touch production but holds production
@@ -108,8 +108,7 @@ This model also gives a more honest answer to the fear behind the orthodox
 team. The fear is that agents will do something irreversible that nobody
 saw. The answer is not to keep agents out of everything. It is to keep
 them out of irreversible, high-impact actions without a person, and to let
-them move quickly everywhere else. In my experience, *most of a typical
-codebase is not in the dangerous corner*, and treating all of it as if it
+them move quickly everywhere else. In my experience, most of a typical codebase is not in the dangerous corner, and treating all of it as if it
 were is a choice to be slow where speed is safe.
 
 Autonomy also depends on what the agent can see. An agent that cannot

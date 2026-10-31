@@ -1,9 +1,7 @@
 # Human Map, Agent Hands
 
-[ADD: confirm title]
-
-*How AI and agents are changing software teams, what they really cost, and why
-the most valuable decision is often what not to build.*
+*Agents made building cheap. Owning, running, and choosing what to build are
+still ours.*
 
 TLDR. Agents make building fast and failure cheap in time. Running a platform
 under strict rules, maintaining it, and finding customers stay expensive. Let

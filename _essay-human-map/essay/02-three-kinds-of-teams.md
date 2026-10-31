@@ -5,8 +5,6 @@ for people, and none of them is foolish. Each is a reasonable answer to a
 real fear, each fails in its own way, and a single company can have all
 three at once. I have seen all three at work.
 
-[DIAGRAM: diagrams/02-spectrum.mmd]
-
 The first is the **orthodox team**. It works the way good teams worked five
 years ago: requirements written and estimated, code built and reviewed by
 hand, a release on a schedule. AI may help with documentation or an email,

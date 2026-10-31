@@ -20,7 +20,7 @@ generous. When an agent writes code, the tests are what turn "I think this
 works" into "this demonstrably does what we agreed". Without them, an
 agent's speed simply produces more unverified code, faster.
 
-This is why I have come back to **test-driven development** as a practical
+This is why I have come back to test-driven development as a practical
 discipline rather than an ideal. Writing the test first, or having the
 agent write it first and a person read it before any implementation
 begins, forces the map to become concrete. A vague intent produces a vague
@@ -33,13 +33,12 @@ expected outcomes first. In the statement download from [chapter 3]({{ '/human-m
 to write is the boundary: a customer asks for a statement and gets only
 their own transactions, never anyone else's.
 
-Different kinds of test guard different things. *Unit tests* guard the
+Different kinds of test guard different things. Unit tests guard the
 logic of small pieces: a calculation, a validation, a state transition.
 They are cheap and fast, and an agent can run thousands of them in the time
-it takes a person to read one. *Integration tests* guard the joins: a
+it takes a person to read one. Integration tests guard the joins: a
 service talking to a database, a queue, or another service, in an
-environment like the one described in the [previous chapter]({{ '/human-map-agent-hands/05-environments-and-observability/' | relative_url }}). *End-to-end
-tests* guard what the customer actually experiences: a full path from a
+environment like the one described in the [previous chapter]({{ '/human-map-agent-hands/05-environments-and-observability/' | relative_url }}). End-to-end tests guard what the customer actually experiences: a full path from a
 screen through every service and back. Each layer catches mistakes the
 others miss, and agents make all three cheaper to write and to run.
 
@@ -50,13 +49,15 @@ a failing test, an agent will often conclude, quite reasonably from its
 point of view, that the test is wrong. Sometimes it is. But a test is a
 statement of intent, and *changing a test is changing the map*.
 
-In our setup, code and unit tests are committed separately, and tests are
-append-only. New behaviour gets a new test; an existing test is not quietly
-rewritten. If a change genuinely needs an existing test to break, then by
-definition it is not backward compatible, and it has to be flagged. The
-simplest way to flag it is one engineers already know: bump the major
-version under semantic versioning. *A broken test becomes a visible version
-change, not a quiet edit.*
+In our setup, code and unit tests are committed separately. Tests that
+state a business rule or an API contract are append-only: new behaviour
+gets a new test, and an existing one is not quietly rewritten. If a change
+genuinely needs one of those tests to break, it is by definition not
+backward compatible, and it has to be flagged. The simplest flag is one
+engineers already know: bump the major version under semantic versioning.
+Tests of internal details are different. A refactor can legitimately change
+them without changing any contract, and those changes go through ordinary
+peer review like any other code.
 
 A second rule follows from the first: **coverage is not the goal; meaning
 is**. Agents can generate tests that execute every line and check almost
@@ -72,15 +73,13 @@ expected. If the suite stays green, the tests were not guarding that line.
 Tools for this practice, known as mutation testing, have existed for years.
 Agents make it cheap enough to use routinely.
 
-The industry data, though early and correlational, points the same way.
-Google's [2024 DORA report](https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report)
-found that higher AI adoption went with an estimated 7.2% drop in delivery
-stability. [GitClear's analysis](https://devclass.com/2025/02/20/ai-is-eroding-code-quality-states-new-in-depth-report/)
+The industry data is early and only correlational, but it points the same
+way. [GitClear's analysis](https://devclass.com/2025/02/20/ai-is-eroding-code-quality-states-new-in-depth-report/)
 of 211 million changed lines found that blocks of five or more duplicated
 lines became eight times more frequent during 2024, while moved lines, a
-sign of refactoring, fell by about 40%. Neither study measures tests
-directly. Both suggest that *more code, produced faster, needs stronger
-guardrails, not weaker ones*.
+sign of refactoring, fell by about 40%. It does not measure tests directly,
+but it suggests that more code, produced faster, needs stronger guardrails,
+not weaker ones.
 
 Done well, tests also change what the reviewer has to read. When the tests
 are agreed first and they pass, the review of the implementation can focus

@@ -39,8 +39,7 @@ change is reverted. Without the "before", that jump is just a number. With
 it, it is a finding. The agent's evidence changes too. Instead of "the
 tests pass", it can say "the tests pass, latency and error rates on this
 endpoint are unchanged, and here is the trace of one request through the
-new path". **An agent that can see the system can be asked to prove its
-change**, not just describe it.
+new path". An agent that can see the system can be asked to **prove its change**, not just describe it.
 
 The senses are not only for engineers. Today, in our teams, the code is
 still managed by developers and a few product managers. QA engineers do not
@@ -60,8 +59,7 @@ time limit, so the problem cannot quietly return.
 Two cautions. Easy access to environments must not mean easy access to
 real customer data. Local and shared test environments should use
 synthetic or properly masked data, enforced by the system rather than
-assumed. And testing can be widely shared, but **accountability for
-releasing still sits with the people named in the map**.
+assumed. And testing can be widely shared, but **accountability for releasing** still sits with the people named in the map.
 
 None of this is free. A local environment that matches production has to
 be maintained like production, and it drifts if nobody owns it. Local
@@ -88,4 +86,6 @@ Merged 2026-11-01 from old chapters 6 and 8 (review findings 2 and 8).
    implies a plan. Confirm or cut.
 5. Confirmed facts: local Kubernetes (unnamed), Grafana locally, local
    request tracing.
+6. Emphasis pass 2026-11-01: bold narrowed to "the agent's senses",
+   "prove its change", and "accountability for releasing". No italics.
 -->
