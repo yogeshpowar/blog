@@ -1,0 +1,14 @@
+%% Chapter 12: four adoption stages with evidence checkpoints between them.
+%% A vertical flowchart; Mermaid's timeline squeezed the text too small.
+flowchart TD
+    S1["<b>Stage 1: Assist</b><br/>Agents help individuals, releases unchanged"]
+    C1{{"Evidence checkpoint<br/>Where are agents reliable?"}}
+    S2["<b>Stage 2: Senses and guardrails</b><br/>Production-like environments, local observability, meaningful tests"]
+    C2{{"Evidence checkpoint<br/>Is the evidence from agents convincing?"}}
+    S3["<b>Stage 3: Propose and approve</b><br/>Agents carry changes to PR, named people approve"]
+    C3{{"Evidence checkpoint<br/>Did approved changes behave as shown?"}}
+    S4["<b>Stage 4: Autonomy by tier</b><br/>Low-risk ships autonomously, high-risk stays human"]
+    S1 --> C1 --> S2 --> C2 --> S3 --> C3 --> S4
+    S4 -. "incidents, audits, rule changes" .-> C3
+    classDef check fill:#fff3b0,stroke:#a77b06,color:#4a3700
+    class C1,C2,C3 check

@@ -1,0 +1,17 @@
+%% Section 8: a generic checkout on a phone and its request timeline.
+%% Mermaid cannot draw a phone screen; the left participant stands in for it.
+sequenceDiagram
+    participant P as Phone checkout screen
+    participant C as Client
+    participant G as API gateway
+    participant S as Service
+    participant D as Database
+    P->>C: Tap "Pay"
+    C->>G: POST /checkout
+    G->>S: Forward request
+    S->>D: Query
+    Note over S,D: Slow response
+    D-->>S: Rows
+    S-->>G: Result
+    G-->>C: 200 OK
+    C-->>P: Confirmation shown

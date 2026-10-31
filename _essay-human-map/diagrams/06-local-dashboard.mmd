@@ -1,0 +1,9 @@
+%%{init: {"xyChart": {"width": 640, "height": 320}, "themeVariables": {"xyChart": {"plotColorPalette": "#c0392b"}}}}%%
+%% Chapter 6: generic local dashboard. Illustrative values only, not real data.
+%% Mermaid xycharts have no annotations, so the "Recent change" marker and the
+%% cluster status are carried in the title.
+xychart-beta
+    title "Local cluster: healthy · p95 latency (ms) · Recent change at t6"
+    x-axis [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]
+    y-axis "p95 latency (ms)" 0 --> 300
+    line [120, 118, 125, 121, 119, 240, 255, 248, 130, 122]

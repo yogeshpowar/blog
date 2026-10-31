@@ -1,0 +1,35 @@
+---
+layout: posts
+---
+{% comment %}
+  One chapter of a multi-page essay. Chapters are pages that share a `book`
+  value and are ordered by `chapter`. `book_home` is the cover post's URL.
+{% endcomment %}
+{% assign chapters = site.pages | where: "book", page.book | sort: "chapter" %}
+{% for c in chapters %}{% if c.url == page.url %}{% assign i = forloop.index0 %}{% endif %}{% endfor %}
+{% assign prev_i = i | minus: 1 %}
+{% assign next_i = i | plus: 1 %}
+<style>
+  .book-nav { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5em 1em;
+              margin: 1.5em 0; padding: .6em 0; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5;
+              font-size: .9em; }
+  .book-nav a { text-decoration: none; }
+  .book-nav .prev, .book-nav .next { flex: 1 1 12em; }
+  .book-nav .next { text-align: right; }
+  .book-nav .home { flex: 0 0 auto; }
+  .mermaid { text-align: center; margin: 1.5em 0; }
+  mark.ph { background: #fff3b0; padding: 0 .2em; }
+  mark.ph.verify { background: #cfe8ff; }
+</style>
+{% capture nav %}
+<nav class="book-nav" aria-label="Chapter navigation">
+  <span class="prev">{% if i > 0 %}<a href="{{ chapters[prev_i].url | relative_url }}">&larr; {{ chapters[prev_i].title }}</a>{% endif %}</span>
+  <span class="home"><a href="{{ page.book_home | relative_url }}">Contents</a></span>
+  <span class="next">{% if next_i < chapters.size %}<a href="{{ chapters[next_i].url | relative_url }}">{{ chapters[next_i].title }} &rarr;</a>{% else %}<a href="{{ page.book_home | relative_url }}">Back to contents &rarr;</a>{% endif %}</span>
+</nav>
+{% endcapture %}
+{{ nav }}
+
+{{ content }}
+
+{{ nav }}

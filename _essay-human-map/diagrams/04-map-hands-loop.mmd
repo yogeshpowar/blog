@@ -1,0 +1,8 @@
+%% Chapter 4: human map and agent hands form a loop.
+%% Each side is one node: Mermaid ignores a subgraph's own direction when the
+%% subgraph is linked, which made the old version one wide row.
+flowchart TD
+    MAP["<b>Human map</b><br/>Intent · Boundaries<br/>Risk classes · Approvals"]
+    HANDS["<b>Agent hands</b><br/>Code · Tests<br/>Environments · Analysis"]
+    MAP -- "Acts within" --> HANDS
+    HANDS -- "Results for review" --> MAP
