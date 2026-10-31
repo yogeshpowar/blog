@@ -1,4 +1,4 @@
-## 5. The Mixed Model: Autonomy by Risk
+## 4. The Mixed Model: Autonomy by Risk
 
 The question "should agents deploy to production?" has no single answer,
 because production is not one thing. Fixing a spelling mistake on a help
@@ -16,7 +16,7 @@ records filed? **How large is the blast radius?** If it goes wrong, does it
 affect one internal screen, one team, or every customer and every
 downstream system?
 
-[DIAGRAM: diagrams/05-risk-matrix.mmd]
+[DIAGRAM: diagrams/04-risk-matrix.mmd]
 
 Put those two questions on a grid, with three levels on each, and three
 tiers appear along the diagonal. Where a change is easy to reverse and its
@@ -56,10 +56,11 @@ and UAT, are deployed automatically. For others, deployment no longer goes
 through a central DevOps team: control sits with the people who own each
 step of the SDLC, so a developer can deploy to UAT and QA can deploy to
 staging. For production, we have not yet moved to fully autonomous
-deployment. In practice, *full autonomy today exists only on the local
-setup*. I count that as honest rather than slow. The autonomous corner of
-the grid has to be earned with evidence, and for production we are not
-there yet.
+deployment. In practice, full autonomy today exists only on the local
+setup. So two rules are at work, and they fit together. The environment is
+how we cap the blast radius today: a mistake on a laptop or in UAT reaches
+no customer. The grid is how we intend to open production, one tier at a
+time, as the evidence earns it. For production, we are not there yet.
 
 Three things make this work in practice. First, **the risk class is part
 of the map**, decided by a person before the agent starts, not inferred by
@@ -94,14 +95,14 @@ the smallest corner of the grid. That brings me to environments.
    the grid. The scoring rule (1-3 per axis, add them) is new and is just a
    way to describe the grid. Keep it, or drop it if it feels too mechanical.
 2. Deeper thought, new: "reversibility is about the failure, not the
-   change". It uses the statement-download example from chapter 4 and
+   change". It uses the statement-download example from chapter 3 and
    explains why that example is propose and approve. This may be the most
    useful idea in the chapter. Does it match how you classify risk?
 3. Changed "interest" to "returns" in the opening example, since not every
    product line pays interest.
 4. Experience claim: "most of a typical codebase is not in the dangerous
    corner". Confirm, or turn it into an opinion.
-5. Diagram: diagrams/05-risk-matrix.mmd uses Mermaid block-beta, which is
+5. Diagram: diagrams/04-risk-matrix.mmd uses Mermaid block-beta, which is
    marked beta. Render-check it before publishing.
 6. New (your answer, 2026-10-31): autonomy by environment. Dev/UAT auto
    deploy for some projects; for others DevOps is bypassed and each SDLC
@@ -109,7 +110,11 @@ the smallest corner of the grid. That brings me to environments.
    fully autonomous; full autonomy only on the local setup. This describes
    pipeline automation and team control, not agents specifically. Check
    that reading. "I count that as honest rather than slow" is my wording.
-   Knock-on: chapter 12 (stage 4) and chapter 2's fully agentic team both
+   Knock-on: chapter 10 (stage 4) and chapter 2's fully agentic team both
    describe autonomous production deploys. The essay now says plainly you
    are not there yet, which is consistent with the thesis.
+7. Revised 2026-11-01 (review finding 5): reconciles autonomy by
+   environment with the grid. Environment caps blast radius today; the
+   grid is how production tiers will open. Removed "I count that as honest
+   rather than slow" (my wording) and the italics.
 -->

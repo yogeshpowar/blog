@@ -1,4 +1,4 @@
-## 10. What Not to Build
+## 8. What Not to Build
 
 When building was slow, the cost of building acted as a filter. A weak idea
 often died in planning because nobody could justify the weeks it would
@@ -93,7 +93,8 @@ energy for the next one.
 
 Today, the first artefact for anything new is the map, not the code, and
 compliance and the people accountable for risk see that map before an
-agent writes a line.
+agent writes a line meant to ship. A prototype to learn from can come
+earlier, but it is never the thing that ships.
 
 Deciding not to build is one way to control cost. The other is to be
 honest about the costs that remain once something is built.
@@ -131,4 +132,9 @@ honest about the costs that remain once something is built.
    second cost, and it falls on people", "People want to see that what they
    built mattered", and "It drains the energy for the next one". The
    last one is an inference, so confirm or cut it.
+8. Changed 2026-11-01 (review finding 3): "before an agent writes a line"
+   became "before an agent writes a line meant to ship", plus "A prototype
+   to learn from can come earlier, but it is never the thing that ships."
+   You confirmed the original sentence, so check this still matches your
+   practice.
 -->

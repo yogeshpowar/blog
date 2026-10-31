@@ -14,17 +14,15 @@ to build.
 ## Index
 
 1. Why Now: Building Is Fast and Failure Is Cheap
-2. Three Kinds of Teams
-3. Where Each Kind of Team Breaks
-4. The Map and the Control
-5. The Mixed Model: Autonomy by Risk
-6. Environments and Observability as the Agent's Senses
-7. Tests as Guardrails
-8. Who Can Test the Whole Path Now
-9. Regulation and the Audit Trail
-10. What Not to Build
-11. The Costs Nobody Budgets For
-12. Adoption: Moving a Team Toward the Mix
-13. The Hard Picture
+2. Three Kinds of Teams and Where They Break
+3. The Map and the Hands
+4. The Mixed Model: Autonomy by Risk
+5. Environments and Observability as the Agent's Senses
+6. Tests as Guardrails
+7. Regulation and the Audit Trail
+8. What Not to Build
+9. The Costs Nobody Budgets For
+10. Adoption: Moving a Team Toward the Mix
+11. Choosing on Purpose
 
 License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)

@@ -1,11 +1,11 @@
 ---
 layout: chapter
-title: "5. The Mixed Model: Autonomy by Risk"
-desc: "Human Map, Agent Hands · Chapter 5 of 13"
+title: "4. The Mixed Model: Autonomy by Risk"
+desc: "Human Map, Agent Hands · Chapter 4 of 11"
 book: human-map-agent-hands
 book_home: /human-map-agent-hands/
-chapter: 5
-permalink: /human-map-agent-hands/05-autonomy-by-risk/
+chapter: 4
+permalink: /human-map-agent-hands/04-autonomy-by-risk/
 image: /images/human-map-agent-hands-cover.jpg
 mermaid: true
 ---
@@ -61,7 +61,7 @@ human in the loop.
 
 One subtlety matters more than the grid itself. *Reversibility is about the
 failure, not the change.* Take the statement download from the [previous
-chapter]({{ '/human-map-agent-hands/04-map-and-control/' | relative_url }}). The code can be rolled back in minutes. But if a bug ever shows one
+chapter]({{ '/human-map-agent-hands/03-map-and-hands/' | relative_url }}). The code can be rolled back in minutes. But if a bug ever shows one
 customer another customer's transactions, that cannot be rolled back at
 all. So the question is not "can we undo this deploy?" but "can we undo
 the worst plausible thing this deploy could do?" That is why the statement
@@ -83,10 +83,11 @@ and UAT, are deployed automatically. For others, deployment no longer goes
 through a central DevOps team: control sits with the people who own each
 step of the SDLC, so a developer can deploy to UAT and QA can deploy to
 staging. For production, we have not yet moved to fully autonomous
-deployment. In practice, *full autonomy today exists only on the local
-setup*. I count that as honest rather than slow. The autonomous corner of
-the grid has to be earned with evidence, and for production we are not
-there yet.
+deployment. In practice, full autonomy today exists only on the local
+setup. So two rules are at work, and they fit together. The environment is
+how we cap the blast radius today: a mistake on a laptop or in UAT reaches
+no customer. The grid is how we intend to open production, one tier at a
+time, as the evidence earns it. For production, we are not there yet.
 
 Three things make this work in practice. First, **the risk class is part
 of the map**, decided by a person before the agent starts, not inferred by

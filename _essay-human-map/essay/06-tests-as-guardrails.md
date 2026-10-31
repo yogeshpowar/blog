@@ -1,13 +1,4 @@
----
-layout: chapter
-title: "7. Tests as Guardrails"
-desc: "Human Map, Agent Hands · Chapter 7 of 13"
-book: human-map-agent-hands
-book_home: /human-map-agent-hands/
-chapter: 7
-permalink: /human-map-agent-hands/07-tests-as-guardrails/
-image: /images/human-map-agent-hands-cover.jpg
----
+## 6. Tests as Guardrails
 
 For a long time, tests were treated as a cost of writing good code: useful,
 admirable, and the first thing cut when a deadline came close. With agents,
@@ -29,7 +20,7 @@ agent a clear target and gives the reviewer a short thing to read instead
 of a long diff. It was a rule in
 [PROTO]({{ site.baseurl }}{% post_url 2025-09-13-PROTO %}), my early
 protocol for agentic coding: even in its lightest mode, agents define
-expected outcomes first. In the statement download from [chapter 4]({{ '/human-map-agent-hands/04-map-and-control/' | relative_url }}), the first test
+expected outcomes first. In the statement download from chapter 3, the first test
 to write is the boundary: a customer asks for a statement and gets only
 their own transactions, never anyone else's.
 
@@ -38,7 +29,7 @@ logic of small pieces: a calculation, a validation, a state transition.
 They are cheap and fast, and an agent can run thousands of them in the time
 it takes a person to read one. *Integration tests* guard the joins: a
 service talking to a database, a queue, or another service, in an
-environment like the one described in the [previous chapter]({{ '/human-map-agent-hands/06-environments-and-observability/' | relative_url }}). *End-to-end
+environment like the one described in the previous chapter. *End-to-end
 tests* guard what the customer actually experiences: a full path from a
 screen through every service and back. Each layer catches mistakes the
 others miss, and agents make all three cheaper to write and to run.
@@ -92,3 +83,24 @@ the tests themselves, because in that tier the tests are the map.
 
 Tests and environments together create something new: a system that almost
 anyone on the team can exercise from end to end.
+
+<!-- REVIEW NOTES (remove before publishing)
+1. Bold reduced from six places to four, and no whole sentences are bold
+   (the brief's rule). The two sentences that were fully bold now bold
+   only the key phrase.
+2. New: mutation testing ("break the code on purpose and see whether a test
+   fails"), as a practical check on "coverage is not the goal". Deeper
+   thought: do your teams do this? If not, say so honestly, or present it
+   as a suggestion.
+3. New: the statement-download boundary test (links chapters 3, 4, and 6),
+   and a closing line that in higher risk tiers the tests are the map.
+4. Experience claims: "I have come back to test-driven development" and
+   "in my experience it is one of the first things to go wrong" (softened
+   from "it is the first thing"). Confirm both.
+5. Added links to the DORA and GitClear sources (verified, see
+   references/to-verify.md rows 3 and 4).
+6. Filled (your answer, 2026-10-31): code and unit tests committed
+   separately, append-only tests, and a breaking test means a major
+   semantic-version bump. "New behaviour gets a new test; an existing test
+   is not quietly rewritten" and the closing italic line are my wording.
+-->

@@ -21,18 +21,16 @@ why the most valuable decision is often what not to build.*
 ## Contents
 
 - [1. Why Now: Building Is Fast and Failure Is Cheap]({{ '/human-map-agent-hands/01-why-now/' | relative_url }})
-- [2. Three Kinds of Teams]({{ '/human-map-agent-hands/02-three-kinds-of-teams/' | relative_url }})
-- [3. Where Each Kind of Team Breaks]({{ '/human-map-agent-hands/03-where-each-breaks/' | relative_url }})
-- [4. The Map and the Control]({{ '/human-map-agent-hands/04-map-and-control/' | relative_url }})
-- [5. The Mixed Model: Autonomy by Risk]({{ '/human-map-agent-hands/05-autonomy-by-risk/' | relative_url }})
-- [6. Environments and Observability as the Agent's Senses]({{ '/human-map-agent-hands/06-environments-and-observability/' | relative_url }})
-- [7. Tests as Guardrails]({{ '/human-map-agent-hands/07-tests-as-guardrails/' | relative_url }})
-- [8. Who Can Test the Whole Path Now]({{ '/human-map-agent-hands/08-who-can-test/' | relative_url }})
-- [9. Regulation and the Audit Trail]({{ '/human-map-agent-hands/09-regulation-and-audit/' | relative_url }})
-- [10. What Not to Build]({{ '/human-map-agent-hands/10-what-not-to-build/' | relative_url }})
-- [11. The Costs Nobody Budgets For]({{ '/human-map-agent-hands/11-costs-nobody-budgets/' | relative_url }})
-- [12. Adoption: Moving a Team Toward the Mix]({{ '/human-map-agent-hands/12-adoption/' | relative_url }})
-- [13. The Hard Picture]({{ '/human-map-agent-hands/13-the-hard-picture/' | relative_url }})
+- [2. Three Kinds of Teams and Where They Break]({{ '/human-map-agent-hands/02-three-kinds-of-teams/' | relative_url }})
+- [3. The Map and the Hands]({{ '/human-map-agent-hands/03-map-and-hands/' | relative_url }})
+- [4. The Mixed Model: Autonomy by Risk]({{ '/human-map-agent-hands/04-autonomy-by-risk/' | relative_url }})
+- [5. Environments and Observability as the Agent's Senses]({{ '/human-map-agent-hands/05-environments-and-observability/' | relative_url }})
+- [6. Tests as Guardrails]({{ '/human-map-agent-hands/06-tests-as-guardrails/' | relative_url }})
+- [7. Regulation and the Audit Trail]({{ '/human-map-agent-hands/07-regulation-and-audit/' | relative_url }})
+- [8. What Not to Build]({{ '/human-map-agent-hands/08-what-not-to-build/' | relative_url }})
+- [9. The Costs Nobody Budgets For]({{ '/human-map-agent-hands/09-costs-nobody-budgets/' | relative_url }})
+- [10. Adoption: Moving a Team Toward the Mix]({{ '/human-map-agent-hands/10-adoption/' | relative_url }})
+- [11. Choosing on Purpose]({{ '/human-map-agent-hands/11-choosing-on-purpose/' | relative_url }})
 
 ---
 

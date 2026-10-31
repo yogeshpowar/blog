@@ -1,11 +1,11 @@
 ---
 layout: chapter
-title: "10. What Not to Build"
-desc: "Human Map, Agent Hands · Chapter 10 of 13"
+title: "8. What Not to Build"
+desc: "Human Map, Agent Hands · Chapter 8 of 11"
 book: human-map-agent-hands
 book_home: /human-map-agent-hands/
-chapter: 10
-permalink: /human-map-agent-hands/10-what-not-to-build/
+chapter: 8
+permalink: /human-map-agent-hands/08-what-not-to-build/
 image: /images/human-map-agent-hands-cover.jpg
 ---
 
@@ -102,7 +102,8 @@ energy for the next one.
 
 Today, the first artefact for anything new is the map, not the code, and
 compliance and the people accountable for risk see that map before an
-agent writes a line.
+agent writes a line meant to ship. A prototype to learn from can come
+earlier, but it is never the thing that ships.
 
 Deciding not to build is one way to control cost. The other is to be
 honest about the costs that remain once something is built.
