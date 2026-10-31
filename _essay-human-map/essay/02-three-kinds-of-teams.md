@@ -99,4 +99,10 @@ Merged 2026-11-01 from old chapters 2 and 3 (review finding 2).
    mix I argue for". The diagram still shows the mix as a fixed node, which
    the review flagged; that is for the diagrams pass.
 4. Confirmed facts used: nine months was the estimate before agents.
+5. Confirmed 2026-11-01: agent-skeptic is the most common pattern in your
+   experience.
+6. Confirmed 2026-11-01: "review time growing while review comments
+   shrink" matches your experience.
+7. Confirmed 2026-11-01: the "probe" reading of the nine-months-in-four
+   story. Chapter 2 wording checks are done.
 -->

@@ -27,7 +27,8 @@ are repeated here:
 - The section drafts named in the brief were not found, so all 13 sections were
   drafted from scratch from the brief (2026-10-31).
 - Diagrams are in Mermaid (2026-10-31).
-- Post path: `_posts/2026-MM-DD-Human-Map-Agent-Hands.md`. Front matter style:
+- Post path: `_posts/2026-11-01-Human-Map-Agent-Hands.md` (published date set in
+  `build.py` as `PUBLISHED`). Front matter style:
   `layout: posts`, `title`, `tags`, `desc: TLDR. ...`.
 
 ## Building the pages
@@ -36,8 +37,8 @@ From the blog root:
 
     python3 _essay-human-map/build.py _essay-human-map .
 
-This writes the cover to `_drafts/Human-Map-Agent-Hands.md` and one page per
+This writes the cover to `_posts/2026-11-01-Human-Map-Agent-Hands.md` and one page per
 chapter to `human-map-agent-hands/`. Never edit those generated files by hand;
 edit `essay/` and `diagrams/`, then rebuild. To preview locally, run
-`bundle exec jekyll serve --drafts` with the local config renamed to a `.yml`
+`bundle exec jekyll serve` with the local config renamed to a `.yml`
 file.

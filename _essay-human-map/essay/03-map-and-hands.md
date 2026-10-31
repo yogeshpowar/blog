@@ -127,4 +127,12 @@ That depends on what is at stake.
    can read what we wrote. It cannot read what we assumed." Bold on the
    map, the hands, "Humans hold the map", "checking a claim", and the labels
    in the example map.
+8. Confirmed 2026-11-01: agents very good at the hands, unreliable at the
+   map.
+9. Confirmed 2026-11-01: writing a good map is harder than writing the code
+   was.
+10. Confirmed 2026-11-01: "breaks the pretence" and "A map you cannot
+   explain is not your map".
+11. Confirmed 2026-11-01: keep the statement-download example map. Chapter
+   3 wording checks are done.
 -->

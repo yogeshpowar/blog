@@ -10,6 +10,7 @@ BOOK = "human-map-agent-hands"
 HOME = f"/{BOOK}/"
 TITLE = "Human Map, Agent Hands"
 COVER = "/images/human-map-agent-hands-cover.jpg"
+PUBLISHED = "2026-11-01"
 TLDR = ("TLDR. Agents make building fast and failure cheap in time. Running a "
         "platform under strict rules, maintaining it, and finding customers stay "
         "expensive. Let humans hold the map, let agents do the hands-on work, set "
@@ -124,6 +125,6 @@ still ours.*
 *This essay is licensed under [Creative Commons Attribution 4.0
 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).*
 """
-(root / "_drafts" / "Human-Map-Agent-Hands.md").write_text(cover)
+(root / "_posts" / f"{PUBLISHED}-Human-Map-Agent-Hands.md").write_text(cover)
 words = sum(len(b.split()) for *_, b in chapters)
 print(f"{n} chapters, {words} words, cover + pages in {out_dir}")

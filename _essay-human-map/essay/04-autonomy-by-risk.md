@@ -119,4 +119,6 @@ the smallest corner of the grid. That brings me to environments.
 8. Emphasis pass 2026-11-01: one italic line kept, "Reversibility is about
    the failure, not the change." Bold kept on the two questions, the three
    tier names, and "the risk class is part of the map".
+9. Confirmed 2026-11-01: "Reversibility is about the failure, not the
+   change" matches how you think about risk.
 -->

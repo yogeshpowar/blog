@@ -7,12 +7,14 @@ clients on different versions of the CAPTCHA, some through the web
 integration and some through mobile SDKs. The team knew how to fix it, but
 nobody had the time to build it. I have worked mostly on backend systems, a
 little on the web frontend, and almost never on app development. With a
-coding agent, I could work through that compatibility in the backend and
-the frontend myself, test the logic, and build the feature. It went to
+coding agent, I wrote the change myself across all three: the backend, the
+web frontend, and the mobile app. I tested the logic and built the
+feature. It went to
 production through our standard development process, like any other
 change. Without an agent, I could not have done it.
 
-That small fix changed how I think about **reach**. The first working
+I did not get faster at backend work. I could suddenly work in code I had
+never touched. The first working
 version now arrives much sooner, and it can come from someone who would not
 have built it at all before. The reach is only safe because the change
 still went through the same process as everything else.
@@ -99,4 +101,14 @@ Revised 2026-11-01 after the editorial review (findings 1, 2, 6, 7).
 7. Bold down to three short phrases, no italic one-liners, no closing
    signpost. The old thesis restatement paragraph is gone.
 8. Chapter numbers updated after the merges (2026-11-01): 2 to 7, and 8 and 9.
+9. Corrected 2026-11-01 (your answer): you coded the backend, the web
+   frontend, and the mobile app, not just the backend and web.
+10. Replaced "That small fix changed how I think about reach" with option 2 (your
+   choice, 2026-11-01): "I did not get faster at backend work. I could
+   suddenly work in code I had never touched." 
+11. Confirmed 2026-11-01: the solo-phase paragraph (speed comes back,
+   simplicity does not).
+12. Confirmed 2026-11-01: keep "A world where anything can be built
+   quickly is not a world where everything should be." All chapter 1
+   wording checks are done.
 -->

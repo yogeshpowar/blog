@@ -16,12 +16,14 @@ clients on different versions of the CAPTCHA, some through the web
 integration and some through mobile SDKs. The team knew how to fix it, but
 nobody had the time to build it. I have worked mostly on backend systems, a
 little on the web frontend, and almost never on app development. With a
-coding agent, I could work through that compatibility in the backend and
-the frontend myself, test the logic, and build the feature. It went to
+coding agent, I wrote the change myself across all three: the backend, the
+web frontend, and the mobile app. I tested the logic and built the
+feature. It went to
 production through our standard development process, like any other
 change. Without an agent, I could not have done it.
 
-That small fix changed how I think about **reach**. The first working
+I did not get faster at backend work. I could suddenly work in code I had
+never touched. The first working
 version now arrives much sooner, and it can come from someone who would not
 have built it at all before. The reach is only safe because the change
 still went through the same process as everything else.
