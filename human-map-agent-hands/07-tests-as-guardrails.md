@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 7
 permalink: /human-map-agent-hands/07-tests-as-guardrails/
+image: /images/human-map-agent-hands-cover.jpg
 ---
 
 For a long time, tests were treated as a cost of writing good code: useful,

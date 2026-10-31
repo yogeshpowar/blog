@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 9
 permalink: /human-map-agent-hands/09-regulation-and-audit/
+image: /images/human-map-agent-hands-cover.jpg
 ---
 
 Working in fintech in India means that every serious change eventually

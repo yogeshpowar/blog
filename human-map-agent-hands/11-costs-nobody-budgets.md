@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 11
 permalink: /human-map-agent-hands/11-costs-nobody-budgets/
+image: /images/human-map-agent-hands-cover.jpg
 ---
 
 When people talk about the cost of AI in software teams, they usually mean

@@ -9,6 +9,7 @@ root = pathlib.Path(sys.argv[2])
 BOOK = "human-map-agent-hands"
 HOME = f"/{BOOK}/"
 TITLE = "Human Map, Agent Hands"
+COVER = "/images/human-map-agent-hands-cover.jpg"
 TLDR = ("TLDR. Agents make building fast and failure cheap in time. Running a "
         "platform under strict rules, maintaining it, and finding customers stay "
         "expensive. Let humans hold the map, let agents do the hands-on work, set "
@@ -82,6 +83,7 @@ for idx, (slug, title, has_diagram, body) in enumerate(chapters, 1):
         f"book_home: {HOME}",
         f"chapter: {idx}",
         f"permalink: /{BOOK}/{slug}/",
+        f"image: {COVER}",
     ]
     if has_diagram:
         fm.append("mermaid: true")
@@ -99,6 +101,7 @@ title: "{TITLE}"
 tags: AI agents engineering fintech SDLC
 desc: "{TLDR}"
 permalink: {HOME}
+image: {COVER}
 ---
 
 <style>
@@ -107,6 +110,8 @@ mark.ph {{ background: #fff3b0; padding: 0 .2em; }}
 
 *How AI and agents are changing software teams, what they really cost, and
 why the most valuable decision is often what not to build.*
+
+![A hand drawing a boundary line on a map divided into green, amber, and red zones, with many small builders at work in the green zone and fewer in the amber zone]({{{{ '{COVER}' | relative_url }}}})
 
 **[Start reading &rarr;]({{{{ '/{BOOK}/{first}/' | relative_url }}}})**
 

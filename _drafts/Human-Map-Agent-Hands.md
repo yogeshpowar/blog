@@ -4,6 +4,7 @@ title: "Human Map, Agent Hands"
 tags: AI agents engineering fintech SDLC
 desc: "TLDR. Agents make building fast and failure cheap in time. Running a platform under strict rules, maintaining it, and finding customers stay expensive. Let humans hold the map, let agents do the hands-on work, set autonomy by what a failure costs, and remember that the most valuable decision is often what not to build."
 permalink: /human-map-agent-hands/
+image: /images/human-map-agent-hands-cover.jpg
 ---
 
 <style>
@@ -12,6 +13,8 @@ mark.ph { background: #fff3b0; padding: 0 .2em; }
 
 *How AI and agents are changing software teams, what they really cost, and
 why the most valuable decision is often what not to build.*
+
+![A hand drawing a boundary line on a map divided into green, amber, and red zones, with many small builders at work in the green zone and fewer in the amber zone]({{ '/images/human-map-agent-hands-cover.jpg' | relative_url }})
 
 **[Start reading &rarr;]({{ '/human-map-agent-hands/01-why-now/' | relative_url }})**
 

@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 6
 permalink: /human-map-agent-hands/06-environments-and-observability/
+image: /images/human-map-agent-hands-cover.jpg
 mermaid: true
 ---
 

@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 3
 permalink: /human-map-agent-hands/03-where-each-breaks/
+image: /images/human-map-agent-hands-cover.jpg
 ---
 
 Every way of working has a failure mode that its own members find hard to

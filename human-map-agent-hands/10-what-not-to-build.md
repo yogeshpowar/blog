@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 10
 permalink: /human-map-agent-hands/10-what-not-to-build/
+image: /images/human-map-agent-hands-cover.jpg
 ---
 
 When building was slow, the cost of building acted as a filter. A weak idea

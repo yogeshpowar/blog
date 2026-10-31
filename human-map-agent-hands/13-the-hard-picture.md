@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 13
 permalink: /human-map-agent-hands/13-the-hard-picture/
+image: /images/human-map-agent-hands-cover.jpg
 ---
 
 I want to end without pretending that any of this is simple.

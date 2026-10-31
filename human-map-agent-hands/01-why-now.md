@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 1
 permalink: /human-map-agent-hands/01-why-now/
+image: /images/human-map-agent-hands-cover.jpg
 ---
 
 I began my career in embedded systems, writing Linux drivers and Wi-Fi

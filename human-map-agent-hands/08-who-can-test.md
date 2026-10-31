@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 8
 permalink: /human-map-agent-hands/08-who-can-test/
+image: /images/human-map-agent-hands-cover.jpg
 mermaid: true
 ---
 

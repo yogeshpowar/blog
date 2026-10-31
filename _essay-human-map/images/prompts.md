@@ -97,8 +97,9 @@ The chapter 4 diagram as a picture. Simplest to get right; works small.
 
 ## Using the image
 
-Save the chosen image as `images/human-map-agent-hands-cover.png` in the
-blog root, with plain alt text such as "A hand drawing boundaries on a map
-while small builders work inside them". I can add it to the cover page and
-to the page's social preview (`image:` in the front matter, which the
-theme's SEO tag reads).
+The cover in use is `images/human-map-agent-hands-cover.jpg` (1200 × 630,
+JPEG). It was made from a generated image (concept 1), cropped to remove the
+generator's watermark and a half-hidden label row. The original PNG was not
+kept. `build.py` adds it to the cover page and sets it as the `image:` for
+the cover and every chapter, which the theme's SEO tag uses for share
+previews.

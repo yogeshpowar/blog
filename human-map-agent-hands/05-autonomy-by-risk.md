@@ -6,6 +6,7 @@ book: human-map-agent-hands
 book_home: /human-map-agent-hands/
 chapter: 5
 permalink: /human-map-agent-hands/05-autonomy-by-risk/
+image: /images/human-map-agent-hands-cover.jpg
 mermaid: true
 ---
 
