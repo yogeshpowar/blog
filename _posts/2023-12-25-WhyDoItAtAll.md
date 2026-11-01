@@ -77,3 +77,14 @@ or
 As always, there's no one-size-fits-all solution, and everything carries a cost.
 It's about finding balance between taking on long-term challenges and leveraging
 existing solutions for short-term needs.
+
+### Update on 01/11/2026
+
+Today I replaced the spindle of our kitchen tap myself. The part was a repeat
+order on Amazon, so I didn't have to spend time searching for an exact match.
+The shut-off valve I had installed last time let me cut the water supply
+without asking the society to stop the main flow and inconveniencing everyone.
+With the right tools, the job took just five minutes.
+
+The satisfaction of DIY is on another level, and it can't be measured in money
+or time.
